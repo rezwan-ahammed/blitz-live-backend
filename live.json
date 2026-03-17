@@ -1,44 +1,44 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 2nd T20I",
-    "status": "LIVE NOW (Match Ended)",
-    "stream_url": "https://willow-app.boondocktv.com/willow-hd-1/index.m3u8",
-    "image_url": "https://example.com/images/nz_vs_sa_cricket.jpg",
+    "title": "China vs Australia - Women's Asian Cup 2026 Semifinal",
+    "status": "LIVE NOW",
+    "stream_url": "https://fifa-world-cup.amagi.tv/playlist.m3u8",
+    "image_url": "https://images.unsplash.com/photo-1542838132-e7551311013e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY2MzJ8MHwxfHNlYXJjaHwxfHx3b21lbnMlMjBmb290YmFsbCUyMHN0YWRpdW18ZW58MHx8fHwxNzExNjY0MDAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
     "referer": "Default"
   },
   "ranked_matches": [
     {
-      "title": "Arsenal vs Bayer 04 Leverkusen (UEFA Champions League)",
+      "title": "China vs Australia - Women's Asian Cup 2026 Semifinal",
+      "time": "LIVE",
+      "url": "https://fifa-world-cup.amagi.tv/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-e7551311013e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY2MzJ8MHwxfHNlYXJjaHwxfHx3b21lbnMlMjBmb290YmFsbCUyMHN0YWRpdW18ZW58MHx8fHwxNzExNjY0MDAwfDA&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    {
+      "title": "UEFA Champions League: Arsenal vs Bayer 04",
       "time": "20:00 UTC",
-      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
-      "image_url": "https://example.com/images/arsenal_vs_leverkusen_football.jpg"
+      "url": "https://cbsn-cbsn-sports-smarttv.amagi.tv/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1546535671-4f1042015457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY2MzJ8MHwxfHNlYXJjaHwxfHx1ZWZhJTIwY2hhbXBpb25zJTIwbGVhZ3VlfGVufDB8fHx8MTcxMDY2NDAwMHww&ixlib=rb-4.0.3&q=80&w=1080"
     },
     {
-      "title": "Man City vs Real Madrid (UEFA Champions League)",
+      "title": "UEFA Champions League: Chelsea vs Paris SG",
       "time": "20:00 UTC",
-      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
-      "image_url": "https://example.com/images/mancity_vs_realmadrid_football.jpg"
+      "url": "https://cbsn-cbsn-sports-smarttv.amagi.tv/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1546535671-4f1042015457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY2MzJ8MHwxfHNlYXJjaHwxfHx1ZWZhJTIwY2hhbXBpb25zJTIwbGVhZ3VlfGVufDB8fHx8MTcxMDY2NDAwMHww&ixlib=rb-4.0.3&q=80&w=1080"
     },
     {
-      "title": "Chelsea vs Paris SG (UEFA Champions League)",
+      "title": "UEFA Champions League: Man City vs Real Madrid",
       "time": "20:00 UTC",
-      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
-      "image_url": "https://example.com/images/chelsea_vs_psg_football.jpg"
+      "url": "https://cbsn-cbsn-sports-smarttv.amagi.tv/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1546535671-4f1042015457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY2MzJ8MHwxfHNlYXJjaHwxfHx1ZWZhJTIwY2hhbXBpb25zJTIwbGVhZ3VlfGVufDB8fHx8MTcxMDY2NDAwMHww&ixlib=rb-4.0.3&q=80&w=1080"
     },
     {
-      "title": "Sporting vs Bodø/Glimt (UEFA Champions League)",
-      "time": "17:45 UTC",
-      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
-      "image_url": "https://example.com/images/sporting_vs_bodoglimt_football.jpg"
-    },
-    {
-      "title": "Sky Bet League One Matches",
+      "title": "English National League: Brackley vs Solihull",
       "time": "19:45 UTC",
-      "url": "https://skysports.m3u8",
-      "image_url": "https://example.com/images/sky_sports_league_one.jpg"
+      "url": "https://cbsn-cbsn-sports-smarttv.amagi.tv/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1587444779104-564231e11201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY2MzJ8MHwxfHNlYXJjaHwxfHx1ayUyMGZvb3RiYWxsJTIwc3RhZGl1bXxlbnwwfHx8fDE3MTA2NjQwMDB8MA&ixlib=rb-4.0.3&q=80&w=1080"
     }
   ],
-  "summary": "The New Zealand vs South Africa 2nd T20I has concluded with New Zealand winning by 68 runs to level the series 1-1. Several major UEFA Champions League football matches are scheduled for this evening, including Arsenal vs Leverkusen, Man City vs Real Madrid, and Chelsea vs PSG, all around 20:00 UTC. There are also numerous English lower-league football fixtures scheduled around 19:45 UTC.",
-  "timestamp": "2026-03-17T10:53:07.398428"
+  "summary": "The main event currently live is the AFC Women's Asian Cup 2026 Semifinal between China and Australia. Several English football matches are scheduled for 19:45 UTC, and major UEFA Champions League fixtures are set for 20:00 UTC. The FIFA+ stream is mapped to the live football event.",
+  "timestamp": "2026-03-17T11:01:56.962431"
 }
