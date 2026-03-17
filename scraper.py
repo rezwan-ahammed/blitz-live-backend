@@ -117,7 +117,7 @@ def generate_live_data(pool):
     
     try:
         response = client.models.generate_content(
-            model='gemini-flash-lite-flash',
+            model='gemini-flash-lite-latest',
             contents=prompt,
             config=types.GenerateContentConfig(tools=[types.Tool(google_search=types.GoogleSearch())], temperature=0.1)
         )
