@@ -1,13 +1,13 @@
 {
   "hero_match": {
-    "title": "Manchester City vs Real Madrid (UEFA Champions League)",
-    "status": "UPCOMING",
+    "title": "Updating Live Sports Server...",
+    "status": "Please Wait",
     "stream_url": "",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Manchester_City_FC_crest.svg/1200px-Manchester_City_FC_crest.svg.png",
+    "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop",
     "user_agent": "Default",
     "referer": "Default"
   },
   "ranked_matches": [],
-  "summary": "It's a busy day for football with major UEFA Champions League fixtures like Manchester City vs Real Madrid, Arsenal vs Bayer Leverkusen, and Chelsea vs PSG. There are also several US Open Cup matches scheduled. For hockey fans, the NHL features the Tampa Bay Lightning visiting the Seattle Kraken tonight. No matches were explicitly listed as LIVE NOW from the provided channels.",
-  "timestamp": "2026-03-17T10:24:26.964682"
+  "summary": "Backend is optimizing streams...",
+  "timestamp": "2026-03-17T10:29:51.217363"
 }
