@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 2nd T20I (Match Concluded)",
-    "status": "CONCLUDED",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "title": "New Zealand vs South Africa 2nd T20I (Match Ended)",
+    "status": "LIVE NOW",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541701494587-c2121517154e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NjAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1542838132-f720521853c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield: NSW vs Western Australia (Draw)",
-      "time": "CONCLUDED",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541701494587-c2121517154e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NjAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Sheffield Shield: NSW vs Western Australia (Match Ended in Draw)",
+      "time": "LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1587443748893-3224c6b3d86b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "ECS Spain Granada: Costa Del Sol vs Sonseca Sultans (Concluded)",
-      "time": "CONCLUDED",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541701494587-c2121517154e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NjAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 2nd T20I concluded with New Zealand winning by 68 runs to level the series 1-1. The Sheffield Shield match between NSW and Western Australia ended in a draw. No live matches were found for Chandigarh T20 or AFC U20 Asian Cup.",
-  "timestamp": "2026-03-17T16:07:03.764536"
+  "summary": "The New Zealand vs South Africa 2nd T20I has concluded with New Zealand winning by 68 runs to level the series 1-1. The Sheffield Shield match between NSW and Western Australia also ended in a draw on its final day.",
+  "timestamp": "2026-03-17T19:04:03.679280"
 }
