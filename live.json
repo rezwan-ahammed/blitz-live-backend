@@ -1,13 +1,44 @@
 {
   "hero_match": {
-    "title": "Blitz Sports Hub",
-    "status": "Live Channels",
-    "stream_url": "https://tvsen7.aynaott.com/tsportshd/index.m3u8",
-    "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop",
-    "user_agent": "Default",
+    "title": "New Zealand vs South Africa 2nd T20I",
+    "status": "LIVE NOW (Match Ended)",
+    "stream_url": "https://willow-app.boondocktv.com/willow-hd-1/index.m3u8",
+    "image_url": "https://example.com/images/nz_vs_sa_cricket.jpg",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
     "referer": "Default"
   },
-  "ranked_matches": [],
-  "summary": "Enjoy premium 24/7 sports channels.",
-  "timestamp": "2026-03-17T10:51:16.818164"
+  "ranked_matches": [
+    {
+      "title": "Arsenal vs Bayer 04 Leverkusen (UEFA Champions League)",
+      "time": "20:00 UTC",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
+      "image_url": "https://example.com/images/arsenal_vs_leverkusen_football.jpg"
+    },
+    {
+      "title": "Man City vs Real Madrid (UEFA Champions League)",
+      "time": "20:00 UTC",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
+      "image_url": "https://example.com/images/mancity_vs_realmadrid_football.jpg"
+    },
+    {
+      "title": "Chelsea vs Paris SG (UEFA Champions League)",
+      "time": "20:00 UTC",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
+      "image_url": "https://example.com/images/chelsea_vs_psg_football.jpg"
+    },
+    {
+      "title": "Sporting vs Bodø/Glimt (UEFA Champions League)",
+      "time": "17:45 UTC",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
+      "image_url": "https://example.com/images/sporting_vs_bodoglimt_football.jpg"
+    },
+    {
+      "title": "Sky Bet League One Matches",
+      "time": "19:45 UTC",
+      "url": "https://skysports.m3u8",
+      "image_url": "https://example.com/images/sky_sports_league_one.jpg"
+    }
+  ],
+  "summary": "The New Zealand vs South Africa 2nd T20I has concluded with New Zealand winning by 68 runs to level the series 1-1. Several major UEFA Champions League football matches are scheduled for this evening, including Arsenal vs Leverkusen, Man City vs Real Madrid, and Chelsea vs PSG, all around 20:00 UTC. There are also numerous English lower-league football fixtures scheduled around 19:45 UTC.",
+  "timestamp": "2026-03-17T10:53:07.398428"
 }
