@@ -2,7 +2,9 @@ import os
 import json
 import requests
 import logging
+import re
 from datetime import datetime
+from typing import Dict, List, Optional
 from google import genai
 from google.genai import types
 
@@ -18,144 +20,186 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-def fetch_filtered_streams():
-    """আপনার অ্যাপের জন্য সেরা স্পোর্টস চ্যানেলগুলো ফিল্টার করা"""
+def validate_url(url: str) -> bool:
+    """URL validation - ensure it's a proper link"""
+    if not url:
+        return False
+    url_pattern = r'^https?://[^\s/$.?#].[^\s]*$'
+    return bool(re.match(url_pattern, str(url))) and len(url) > 10
+
+def fetch_filtered_streams() -> List[Dict]:
+    """প্রিমিয়াম স্পোর্টস চ্যানেল ফিল্টার"""
     try:
-        logger.info("📡 Fetching raw IPTV streams...")
+        logger.info("📡 Fetching premium IPTV streams...")
         response = requests.get("https://iptv-org.github.io/api/streams.json", timeout=15)
+        response.raise_for_status()
         data = response.json()
         
-        # স্পোর্টস কি-ওয়ার্ডস
-        keywords = ['sports', 'cricket', 'football', 'ten', 'willow', 'tsports', 'gtv', 'star', 'sky', 'sony', 'bein', 'ptv', 'astro']
+        prime_keywords = ['cricket', 'football', 'sports']
+        secondary_keywords = ['ten', 'willow', 'tsports', 'gtv', 'star', 'sky', 'sony', 'bein', 'ptv', 'astro', 'espn']
         
         filtered = []
         for s in data:
             channel_id = str(s.get('channel', '')).lower()
-            if any(key in channel_id for key in keywords):
+            url = s.get('url', '')
+            
+            if not validate_url(url):
+                continue
+            
+            is_prime = any(key in channel_id for key in prime_keywords)
+            is_secondary = any(key in channel_id for key in secondary_keywords)
+            
+            if is_prime or is_secondary:
                 filtered.append({
-                    'channel': s.get('channel'),
-                    'url': s.get('url'),
+                    'channel': s.get('channel', 'Unknown'),
+                    'url': url,
                     'ua': s.get('user_agent', 'Default'),
-                    'ref': s.get('http_referrer', 'Default')
+                    'ref': s.get('http_referrer', 'Default'),
+                    'priority': 1 if is_prime else 2
                 })
         
-        logger.info(f"✅ Found {len(filtered)} potential sports streams.")
-        return filtered[:50] # এআইকে সেরা ৫০টি অপশন দিচ্ছি যাতে সে ফোকাসড থাকে
+        filtered.sort(key=lambda x: x['priority'])
+        logger.info(f"✅ Found {len(filtered)} verified sports streams.")
+        return filtered[:40] 
     except Exception as e:
-        logger.error(f"❌ Fetch Error: {str(e)}")
+        logger.error(f"❌ Stream Fetch Error: {str(e)}")
         return []
 
-def generate_intelligent_data(stream_list):
-    """AI দিয়ে লাইভ ম্যাচ খুঁজে বের করা এবং পারফেক্ট লিংক ম্যাচ করা"""
+def clean_and_verify_data(data: Dict) -> Dict:
+    """সমস্ত ইউআরএল (স্ট্রিম + ইমেজ) পরিষ্কার এবং যাচাই করুন"""
+    try:
+        # হিরো ম্যাচ চেক
+        hero = data.get("hero_match", {})
+        if not validate_url(hero.get("stream_url", "")):
+            data["hero_match"]["stream_url"] = ""
+            
+        # ইমেজ ইউআরএল ভ্যালিডেশন (যদি এআই উল্টাপাল্টা কিছু দেয়)
+        if not validate_url(hero.get("image_url", "")):
+            # ডিফল্ট স্পোর্টস ব্যাকগ্রাউন্ড
+            data["hero_match"]["image_url"] = "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop"
+
+        # র‍্যাঙ্কড ম্যাচ চেক
+        if "ranked_matches" in data and isinstance(data["ranked_matches"], list):
+            cleaned_matches = []
+            for match in data["ranked_matches"]:
+                if validate_url(match.get("url", "")):
+                    if not validate_url(match.get("image_url", "")):
+                        match["image_url"] = "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=300&auto=format&fit=crop"
+                    cleaned_matches.append(match)
+            data["ranked_matches"] = cleaned_matches
+        
+        # 🧠 স্মার্ট ফলব্যাক: যদি হিরো ম্যাচ খালি থাকে!
+        if not data.get("hero_match", {}).get("title") or not data.get("hero_match", {}).get("stream_url"):
+            logger.info("⚡ Hero match stream is empty. Injecting top ranked match!")
+            if data.get("ranked_matches") and len(data["ranked_matches"]) > 0:
+                top_match = data["ranked_matches"][0]
+                data["hero_match"]["title"] = top_match.get("title")
+                data["hero_match"]["status"] = top_match.get("time")
+                data["hero_match"]["stream_url"] = top_match.get("url")
+                data["hero_match"]["image_url"] = top_match.get("image_url")
+                
+        return data
+    except Exception as e:
+        logger.error(f"❌ Verification Error: {str(e)}")
+        return data
+
+def generate_intelligent_data(stream_list: List[Dict]) -> Optional[Dict]:
+    """এআই দিয়ে ডাটা তৈরি (ইমেজ সাপোর্ট সহ)"""
     current_date = datetime.now().strftime("%B %d, %Y")
     
+    stream_reference = json.dumps([{'channel': s['channel'], 'url': s['url']} for s in stream_list[:30]])
+    
+    # প্রম্পটে image_url ফিল্ডটি যুক্ত করা হয়েছে
     prompt = f"""
-    Today is {current_date}. 
+    Today is {current_date}.
     
-    TASK:
-    1. Search Google for today's LIVE major cricket and football matches.
-    2. From the IPTV list below, find the EXACT working channels broadcasting these matches.
+    CRITICAL MISSION: Find LIVE and UPCOMING sports matches.
     
-    IPTV LIST:
-    {json.dumps(stream_list)}
+    VERIFIED STREAMING CHANNELS:
+    {stream_reference}
     
-    CRITICAL RULES FOR 'stream_url' (MUST OBEY):
-    - It MUST ONLY be a valid URL starting with 'http' or 'https'.
-    - NEVER write sentences, explanations, or text in the 'stream_url' field.
-    - If NO valid URL is found for a match, set 'stream_url' to "" (empty string).
-    - The 'hero_match' MUST be a match that has a valid, working URL from the list.
-    
-    OUTPUT STRUCTURE (Strict JSON ONLY):
+    OUTPUT (Valid JSON ONLY):
     {{
       "hero_match": {{
-        "title": "Exact Match Name (e.g., Bangladesh vs India)",
-        "status": "LIVE NOW (or score)",
-        "stream_url": "http://...",
+        "title": "Match Name",
+        "status": "LIVE NOW",
+        "stream_url": "exact_url_from_list_or_empty",
+        "image_url": "Find a high-quality horizontal image URL of this sport/team from web",
         "user_agent": "Default",
         "referer": "Default"
       }},
       "ranked_matches": [
-         {{ 
-            "title": "Match Name", 
-            "time": "LIVE", 
-            "url": "http://..." 
-         }}
+        {{
+          "title": "Match Name",
+          "time": "LIVE",
+          "url": "exact_url_from_list_or_empty",
+          "image_url": "Find a small image URL of this sport/team from web"
+        }}
       ],
-      "summary": "Brief sports update summary."
+      "summary": "Brief update."
     }}
+    
+    RULES:
+    1. 'stream_url' MUST be an exact URL from the provided list.
+    2. 'image_url' MUST be a valid 'http/https' image link (.jpg/.png/.webp).
     """
     
     try:
-        logger.info("🧠 AI (gemini-flash-lite-latest) is analyzing matches...")
+        logger.info("🧠 AI (gemini-flash-lite-latest) analyzing with images...")
         response = client.models.generate_content(
-            model='gemini-flash-lite-latest', # আপনার রিকুয়েস্ট করা লেটেস্ট মডেল
+            model='gemini-flash-lite-latest', 
             contents=prompt,
             config=types.GenerateContentConfig(
                 tools=[types.Tool(google_search=types.GoogleSearch())],
-                temperature=0.2 # কম টেম্পারেচার = ফোকাসড এবং নির্ভুল ডাটা
+                temperature=0.2 
             )
         )
         
         output = response.text.strip()
-        logger.info("Raw AI response generated.")
+        json_match = re.search(r'\{[\s\S]*\}', output)
+        if not json_match:
+            return None
         
-        # JSON ক্লিন-আপ
-        if "{" in output:
-            output = output[output.find("{"):output.rfind("}")+1]
+        parsed_data = json.loads(json_match.group())
+        parsed_data = clean_and_verify_data(parsed_data)
+        return parsed_data
         
-        return json.loads(output)
     except Exception as e:
-        logger.error(f"❌ AI Logic Error: {str(e)}")
+        logger.error(f"❌ AI Generation Error: {str(e)}")
         return None
 
-def fallback_data():
-    """ফেইল-সেফ ডাটা যাতে অ্যাপ ক্র্যাশ না করে"""
+def fallback_data() -> Dict:
     fallback = {
         "hero_match": {
             "title": "Sports Update",
-            "status": "Check Back Later",
+            "status": "Connecting...",
             "stream_url": "",
+            "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop",
             "user_agent": "Default",
             "referer": "Default"
         },
         "ranked_matches": [],
-        "summary": "Updating match schedules...",
+        "summary": "Fetching schedules...",
         "timestamp": datetime.now().isoformat()
     }
     with open("live.json", "w", encoding="utf-8") as f:
         json.dump(fallback, f, indent=2)
 
 def main():
-    print("🚀 Blitz Live Engine Starting (Flash Lite)...")
+    print("🚀 BLITZ LIVE - Masterpiece Engine (With Images)")
     streams = fetch_filtered_streams()
-    
     if not streams:
-        logger.warning("⚠️ No streams fetched, using fallback.")
         fallback_data()
         return
-
+    
     final_data = generate_intelligent_data(streams)
     
     if final_data:
-        # 🛡️ আল্টিমেট সেফটি চেক: হিরো ম্যাচের ইউআরএল ঠিক আছে তো?
-        hero_url = final_data.get("hero_match", {}).get("stream_url", "")
-        if not hero_url.startswith("http"):
-            logger.warning(f"⚠️ AI hallucinates text in stream_url: '{hero_url}'. Fixing to empty string.")
-            final_data["hero_match"]["stream_url"] = ""
-
-        # র‍্যাঙ্কড ম্যাচের ইউআরএল চেক
-        if "ranked_matches" in final_data:
-            for match in final_data["ranked_matches"]:
-                if not match.get("url", "").startswith("http"):
-                    match["url"] = ""
-
         final_data['timestamp'] = datetime.now().isoformat()
-        
         with open("live.json", "w", encoding="utf-8") as f:
             json.dump(final_data, f, indent=2, ensure_ascii=False)
-        logger.info("✅ SUCCESS: live.json updated perfectly!")
+        logger.info("✅ SUCCESS: live.json saved with images!")
     else:
-        logger.warning("⚠️ Using fallback data due to AI parsing failure.")
         fallback_data()
 
 if __name__ == "__main__":
