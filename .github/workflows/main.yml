@@ -2,9 +2,8 @@ name: Blitz Live AI Scraper
 
 on:
   schedule:
-    # প্রতি ৩ ঘণ্টা পরপর অটোমেটিক রান হবে (UTC সময়)
     - cron: '0 */3 * * *'
-  workflow_dispatch: # যাতে আপনি চাইলে ম্যানুয়ালিও রান করতে পারেন
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Updated to v5
         with:
-          python-version: '3.9'
+          python-version: '3.11' # Updated to 3.11
 
       - name: Install dependencies
         run: |
@@ -31,7 +30,6 @@ jobs:
 
       - name: Commit and Push live.json
         run: |
-          git config --global user.name "github-actions[bot]"
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add live.json
