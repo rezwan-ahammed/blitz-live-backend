@@ -1,26 +1,31 @@
 {
   "hero_match": {
     "title": "New Zealand vs South Africa 2nd T20I (Match Ended)",
-    "status": "MATCH FINISHED (NZ won by 68 runs)",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-    "image_url": "https://images.unsplash.com/photo-1541534741688-6048e1215112?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "referer": "Default"
+    "status": "LIVE NOW",
+    "stream_url": "",
+    "cookie": "",
+    "image_url": "https://images.unsplash.com/photo-1541835151111-a7186819427c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJhbnNtaXNzaW9ufGVufDB8fHx8MTcxMDY0NjYwMHww&ixlib=rb-4.0.3&q=80&w=1080",
+    "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "UEFA Champions League: Sporting vs Bodø/Glimt",
-      "time": "Scheduled (17:45)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1546539216-c2179131851c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "Sheffield Shield: NSW vs Western Australia (Day 4 End)",
+      "time": "LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541835151111-a7186819427c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJhbnNtaXNzaW9ufGVufDB8fHx8MTcxMDY0NjYwMHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "EFL Championship: Watford vs Wrexham",
-      "time": "Scheduled (19:45)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1579952361413-d4025850d9f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "Sheffield Shield: Victoria vs South Australia (Day 4 End)",
+      "time": "LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541835151111-a7186819427c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJhbnNtaXNzaW9ufGVufDB8fHx8MTcxMDY0NjYwMHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 2nd T20I concluded with New Zealand winning by 68 runs to level the series 1-1. Several major European and domestic football fixtures are scheduled for later today, including UEFA Champions League and EFL Championship matches.",
-  "timestamp": "2026-03-17T11:40:31.810355"
+  "summary": "The New Zealand vs South Africa 2nd T20I has concluded with New Zealand winning by 68 runs to level the series 1-1. Several Sheffield Shield matches scheduled to end today also appear to be concluding or have ended in draws.",
+  "timestamp": "2026-03-17T13:07:09.812186"
 }
