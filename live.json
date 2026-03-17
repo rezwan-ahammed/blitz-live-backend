@@ -1,28 +1,44 @@
 {
   "hero_match": {
-    "title": "",
-    "status": "",
-    "stream_url": "",
+    "title": "Chelsea vs PSG - UEFA Champions League Round of 16 (2nd Leg)",
+    "status": "LIVE NOW",
+    "stream_url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
+    "image_url": "https://i.imgur.com/8g9v7tB.jpeg",
     "user_agent": "Default",
     "referer": "Default"
   },
   "ranked_matches": [
     {
-      "title": "New Zealand vs South Africa 2nd T20I",
-      "time": "Match Ended (NZ won by 68 runs)",
-      "url": ""
+      "title": "Manchester City vs Real Madrid - UEFA Champions League Round of 16 (2nd Leg)",
+      "time": "LIVE",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
+      "image_url": "https://i.imgur.com/p0t6r2j.png"
     },
     {
-      "title": "UEFA Champions League Football Matches",
-      "time": "Scheduled/Live",
-      "url": ""
+      "title": "Arsenal vs Bayer Leverkusen - UEFA Champions League Round of 16 (2nd Leg)",
+      "time": "LIVE",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
+      "image_url": "https://i.imgur.com/2xYt3fG.png"
     },
     {
-      "title": "English Football League Matches",
-      "time": "Scheduled/Live",
-      "url": ""
+      "title": "Sporting CP vs Bodø / Glimt - UEFA Champions League Round of 16 (2nd Leg)",
+      "time": "LIVE",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8",
+      "image_url": "https://i.imgur.com/t7h4r2j.png"
+    },
+    {
+      "title": "Watford vs Wrexham - EFL Championship",
+      "time": "LIVE",
+      "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/ftf/FTF_SCTE_B.m3u8?ads.vf=U3lqpPugV2W",
+      "image_url": "https://i.imgur.com/w8j4r2j.png"
+    },
+    {
+      "title": "FC St. Gallen vs. FC Lugano - Swiss Super League",
+      "time": "LIVE",
+      "url": "https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8",
+      "image_url": "https://i.imgur.com/v9j4r2j.png"
     }
   ],
-  "summary": "The New Zealand vs South Africa 2nd T20I concluded with New Zealand winning by 68 runs to level the five-match series 1-1. Several European and domestic football fixtures were also scheduled for today. No channels from the provided IPTV list could be confirmed to be broadcasting these specific live sports events.",
-  "timestamp": "2026-03-17T09:27:27.054768"
+  "summary": "It's a massive day for European football with the second legs of the UEFA Champions League Round of 16 taking place, featuring Chelsea vs PSG and Man City vs Real Madrid. The Women's Africa Cup of Nations also kicks off today in Morocco. Several English Championship fixtures are also scheduled.",
+  "timestamp": "2026-03-17T09:39:43.584056"
 }
