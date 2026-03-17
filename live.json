@@ -1,13 +1,26 @@
 {
   "hero_match": {
-    "title": "Updating Live Sports Server...",
-    "status": "Please Wait",
-    "stream_url": "",
-    "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop",
+    "title": "Bahrain Sports 1 Live Coverage",
+    "status": "LIVE NOW",
+    "stream_url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+    "image_url": "https://images.unsplash.com/photo-1542838132-92c5848ca04a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJhc2tldGJhbGx8ZW58MHx8fHwxNjY4MTY2NDAw&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Default",
     "referer": "Default"
   },
-  "ranked_matches": [],
-  "summary": "Backend is optimizing streams...",
-  "timestamp": "2026-03-17T10:32:09.632236"
+  "ranked_matches": [
+    {
+      "title": "Bahrain Sports 2 Live Coverage",
+      "time": "LIVE",
+      "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-92c5848ca04a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJhc2tldGJhbGx8ZW58MHx8fHwxNjY4MTY2NDAw&ixlib=rb-1.2.1&q=80&w=1080"
+    },
+    {
+      "title": "Arirang TV News/Culture Broadcast",
+      "time": "LIVE",
+      "url": "https://dash3.antik.sk/live/test_arirang/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1518177349997-c93b1f0fd551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGtvcmVhJTIwbmV3c3xlbnwwfHx8fDE2Nzg0NDY0MDA&ixlib=rb-1.2.1&q=80&w=1080"
+    }
+  ],
+  "summary": "The most critical live events available are the broadcasts on Bahrain Sports 1 and Bahrain Sports 2, likely covering local sports events. Arirang TV is also live with news and cultural programming. Several football fixtures are scheduled for the next 12 hours, but no dedicated football channel is available in the provided list for those specific matches.",
+  "timestamp": "2026-03-17T10:36:11.251292"
 }
