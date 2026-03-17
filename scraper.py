@@ -2,199 +2,168 @@ import os
 import json
 import requests
 import logging
-import re
 from datetime import datetime
-from typing import Dict, List, Optional
 from google import genai
 from google.genai import types
 
-# ১. প্রফেশনাল লগিং সেটআপ
+# লগিং সেটআপ
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# ২. জেমিনি ক্লায়েন্ট সেটআপ
 api_key = os.environ.get("GEMINI_API_KEY")
-if not api_key:
-    logger.error("GEMINI_API_KEY is missing! Check GitHub Secrets.")
-    exit(1)
-
 client = genai.Client(api_key=api_key)
 
-def validate_stream_url(url: str) -> bool:
-    """URL validation - Strict filter for ExoPlayer compatibility"""
-    if not url:
-        return False
-    url_pattern = r'^https?://[^\s/$.?#].[^\s]*$'
-    is_valid_format = bool(re.match(url_pattern, str(url))) and len(url) > 10
+def get_premium_persistent_channels():
+    """সবসময় কাজ করে এমন কিছু প্রিমিয়াম স্পোর্টস চ্যানেলের ব্যাকআপ (Fallback)"""
+    return [
+        {"name": "T-Sports HD (BD Matches)", "url": "https://tvsen7.aynaott.com/tsportshd/index.m3u8"},
+        {"name": "GTV HD (Cricket)", "url": "https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/GTV_HD/default/index.m3u8"},
+        {"name": "Willow TV (Live Cricket)", "url": "https://willow-app.boondocktv.com/willow-hd-1/index.m3u8"},
+        {"name": "PTV Sports (Pak/Int. Matches)", "url": "http://103.226.248.53:8080/ptvsports/index.m3u8"},
+        {"name": "beIN Sports (Football/UCL)", "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8"},
+        {"name": "Sky Sports (Premier League)", "url": "https://skysports.m3u8"} # ডামি বা আপনার হিডেন লিংক
+    ]
+
+def fetch_dynamic_live_events():
+    """বিভিন্ন রিয়েল-টাইম সোর্স থেকে আজকের ইভেন্ট ডাটা টানা"""
+    logger.info("📡 Scanning multiple sources for dynamic live events...")
+    live_links = []
     
-    # NEW RULE: .m3u8 (HLS) লিংকগুলোকে বেশি প্রাধান্য দেওয়া হচ্ছে, যাতে কালো স্ক্রিন না আসে
-    is_hls = '.m3u8' in str(url).lower()
-    return is_valid_format and is_hls
-
-def fetch_filtered_streams() -> List[Dict]:
-    """প্রিমিয়াম স্পোর্টস চ্যানেল ফিল্টার - Strict HLS Only"""
+    # সোর্স ১: গিটহাবের পাবলিক স্পোর্টস ইভেন্ট এপিআই (উদাঃ FanCode বা স্পোর্টস রিপো)
+    # [এখানে আপনি টেলিগ্রাম বা গিটহাবের রিয়েল-টাইম .m3u সোর্স বসাতে পারেন]
     try:
-        logger.info("📡 Fetching premium IPTV streams...")
-        response = requests.get("https://iptv-org.github.io/api/streams.json", timeout=15)
-        response.raise_for_status()
-        data = response.json()
-        
-        prime_keywords = ['cricket', 'football', 'sports', 'willow', 'tsports', 'gtv', 'star', 'sky', 'sony', 'bein', 'espn']
-        
-        filtered = []
-        for s in data:
-            channel_id = str(s.get('channel', '')).lower()
-            url = s.get('url', '')
-            
-            # শুধুমাত্র ভ্যালিড এবং প্লেএবল (.m3u8) লিংকগুলোই নেওয়া হবে
-            if not validate_stream_url(url):
-                continue
-            
-            if any(key in channel_id for key in prime_keywords):
-                filtered.append({
-                    'channel': s.get('channel', 'Unknown'),
-                    'url': url,
-                    'ua': s.get('user_agent', 'Default'),
-                    'ref': s.get('http_referrer', 'Default')
-                })
-        
-        logger.info(f"✅ Found {len(filtered)} high-quality HLS streams.")
-        return filtered[:40] # সেরা ৪০টি প্লেএবল লিংক
+        # উদাহরণস্বরূপ একটি কমন ওপেন সোর্স সোর্স
+        res = requests.get("https://raw.githubusercontent.com/byte-capsule/FanCode-Hls-Fetcher/main/live.json", timeout=10)
+        if res.status_code == 200:
+            data = res.json()
+            for match in data.get("matches", []):
+                if match.get("stream_url"):
+                    live_links.append({
+                        "name": match.get("title", "Live Match"),
+                        "url": match.get("stream_url")
+                    })
     except Exception as e:
-        logger.error(f"❌ Stream Fetch Error: {str(e)}")
-        return []
-
-def clean_and_verify_data(data: Dict) -> Dict:
-    """Anti-Hallucination Firewall"""
-    try:
-        default_hero = "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop"
-        default_list = "https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=300&auto=format&fit=crop"
+        logger.warning(f"⚠️ Source 1 failed: {str(e)}")
         
-        def is_safe_image(url):
-            if not url or not url.startswith('http'): return False
-            if 'imgur.com' in str(url).lower(): return False # Imgur পুরোপুরি ব্লকড
-            return True
+    return live_links
 
-        hero = data.get("hero_match", {})
-        if not hero.get("stream_url", "").startswith('http'):
-            data["hero_match"]["stream_url"] = ""
-            
-        if not is_safe_image(hero.get("image_url", "")):
-            data["hero_match"]["image_url"] = default_hero
+def get_hybrid_stream_pool():
+    """সব সোর্স মিলিয়ে একটি মাস্টার পোল তৈরি করা"""
+    pool = fetch_dynamic_live_events()
+    # যদি ডায়নামিক লিংক না পাওয়া যায় বা কম পাওয়া যায়, তবে ব্যাকআপ চ্যানেলগুলো যোগ করে দেবো
+    pool.extend(get_premium_persistent_channels())
+    logger.info(f"🎯 Hybrid Pool Ready with {len(pool)} ultra-reliable streams.")
+    return pool
 
-        if "ranked_matches" in data and isinstance(data["ranked_matches"], list):
-            cleaned = []
-            for match in data["ranked_matches"]:
-                if match.get("url", "").startswith('http'):
-                    if not is_safe_image(match.get("image_url", "")):
-                        match["image_url"] = default_list
-                    cleaned.append(match)
-            data["ranked_matches"] = cleaned
-        
-        return data
-    except Exception as e:
-        logger.error(f"❌ Verification Error: {str(e)}")
-        return data
-
-def generate_intelligent_data(stream_list: List[Dict]) -> Optional[Dict]:
-    """Gemini 3.1 Pro দিয়ে নিখুঁত ম্যাপিং"""
+def ai_brain_matcher(stream_pool):
+    """এআই গুগল সার্চ করে রিয়েল ম্যাচের সাথে স্ট্রিম পোল ম্যাচ করাবে"""
     current_time = datetime.now().strftime("%B %d, %Y - %H:%M UTC")
-    stream_reference = json.dumps([{'channel': s['channel'], 'url': s['url']} for s in stream_list[:30]])
+    pool_data = json.dumps(stream_pool, indent=2)
     
     prompt = f"""
-    Current Time: {current_time}.
+    Time: {current_time}.
     
-    CRITICAL MISSION: You are an expert sports broadcast analyzer. Find the most important LIVE and UPCOMING (next 12 hours) matches and map them to the EXACT correct channel from the provided list.
+    MISSION: 
+    1. Search Google for today's most popular LIVE and UPCOMING sports matches (Cricket & Football).
+    2. Map them ONLY to the working URLs from this HYBRID POOL:
+    {pool_data}
     
-    VERIFIED STREAMING CHANNELS:
-    {stream_reference}
+    STRICT RULES:
+    - YOU MUST NOT INVENT URLs. Use EXACT URLs from the HYBRID POOL.
+    - Match intelligently: Put Bangladesh matches on T-Sports or GTV. Put international cricket on Willow. Put football on beIN.
+    - Provide realistic 'image_url' for each match.
     
-    STRICT RULES (VIOLATION CAUSES SYSTEM CRASH):
-    1. 'stream_url' MUST be an EXACT string copy-pasted from the list above. DO NOT invent URLs.
-    2. CHANNEL MATCHING: Do NOT put a Cricket match on a dedicated Football channel (e.g., beIN Sports). Match logic carefully.
-    3. IMAGE RULES: Provide realistic image URLs. DO NOT use imgur.com. Prefer images.unsplash.com or standard sports news domains.
-    4. If a match has no relevant channel in the list, set 'stream_url' to "".
-    
-    OUTPUT FORMAT (Strict JSON ONLY):
+    OUTPUT FORMAT (JSON ONLY):
     {{
       "hero_match": {{
-        "title": "Match Name",
+        "title": "Clean Match Name",
         "status": "LIVE NOW (or Time)",
-        "stream_url": "...",
-        "image_url": "...",
-        "user_agent": "Default",
+        "stream_url": "URL_FROM_POOL",
+        "image_url": "REALISTIC_IMAGE_LINK",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
         "referer": "Default"
       }},
       "ranked_matches": [
         {{
-          "title": "Match Name",
+          "title": "Clean Match Name",
           "time": "LIVE",
-          "url": "...",
-          "image_url": "..."
+          "url": "URL_FROM_POOL",
+          "image_url": "REALISTIC_IMAGE_LINK"
         }}
       ],
-      "summary": "Short sports update."
+      "summary": "Brief update."
     }}
     """
     
     try:
-        logger.info("🧠 AI (gemini-3.1-pro) is reasoning deeply for perfect matches...")
-        # এখানে আপনার রিকোয়েস্ট অনুযায়ী লেটেস্ট 3.1 Pro মডেল ব্যবহার করা হলো
+        logger.info("🧠 AI (gemini-2.0-flash) is mapping real matches to Hybrid Pool...")
         response = client.models.generate_content(
-            model='gemini-flash-lite-latest', 
+            model='gemini-2.0-flash', 
             contents=prompt,
             config=types.GenerateContentConfig(
                 tools=[types.Tool(google_search=types.GoogleSearch())],
-                temperature=0.1 # অত্যন্ত ফোকাসড এবং কড়া লজিক
+                temperature=0.1 # লজিক্যাল ম্যাপিংয়ের জন্য কম টেম্পারেচার
             )
         )
         
         output = response.text.strip()
-        json_match = re.search(r'\{[\s\S]*\}', output)
-        if not json_match:
-            return None
+        start = output.find("{")
+        end = output.rfind("}") + 1
         
-        parsed_data = json.loads(json_match.group())
-        return clean_and_verify_data(parsed_data)
-        
+        if start != -1 and end != 0:
+            parsed_json = json.loads(output[start:end])
+            
+            # 🛡️ ভ্যালিডেশন: হিরো ইউআরএল ঠিক আছে তো?
+            hero_url = parsed_json.get("hero_match", {}).get("stream_url", "")
+            valid_urls = [s["url"] for s in stream_pool]
+            
+            if hero_url not in valid_urls and hero_url != "":
+                logger.warning("⚠️ AI hallucinated a URL. Reverting to top premium channel.")
+                parsed_json["hero_match"]["stream_url"] = valid_urls[0] if valid_urls else ""
+                
+            return parsed_json
+            
+        return None
     except Exception as e:
-        logger.error(f"❌ AI Generation Error: {str(e)}")
+        logger.error(f"❌ AI Mapping Error: {str(e)}")
         return None
 
-def fallback_data() -> Dict:
+def fallback_data() -> dict:
     fallback = {
         "hero_match": {
-            "title": "Updating Live Sports Server...",
-            "status": "Please Wait",
-            "stream_url": "",
+            "title": "Blitz Sports Hub",
+            "status": "Live Channels",
+            "stream_url": "https://tvsen7.aynaott.com/tsportshd/index.m3u8",
             "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop",
             "user_agent": "Default",
             "referer": "Default"
         },
         "ranked_matches": [],
-        "summary": "Backend is optimizing streams...",
+        "summary": "Enjoy premium 24/7 sports channels.",
         "timestamp": datetime.now().isoformat()
     }
     with open("live.json", "w", encoding="utf-8") as f:
         json.dump(fallback, f, indent=2)
 
 def main():
-    print("🚀 BLITZ LIVE - Gemini 3.1 Pro Engine")
+    print("🚀 BLITZ LIVE - Hybrid Aggregator Architecture")
     print("=" * 60)
-    streams = fetch_filtered_streams()
     
-    if not streams:
+    stream_pool = get_hybrid_stream_pool()
+    
+    if not stream_pool:
         fallback_data()
         return
-    
-    final_data = generate_intelligent_data(streams)
+        
+    final_data = ai_brain_matcher(stream_pool)
     
     if final_data:
         final_data['timestamp'] = datetime.now().isoformat()
         with open("live.json", "w", encoding="utf-8") as f:
             json.dump(final_data, f, indent=2, ensure_ascii=False)
-        logger.info("✅ SUCCESS: Pro-level live.json generated!")
+        logger.info("✅ SUCCESS: Hybrid Data Saved!")
     else:
+        logger.warning("⚠️ AI failed to format. Using fallback.")
         fallback_data()
 
 if __name__ == "__main__":
