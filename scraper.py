@@ -141,7 +141,7 @@ def generate_intelligent_data(stream_list: List[Dict]) -> Optional[Dict]:
         logger.info("🧠 AI (gemini-3.1-pro) is reasoning deeply for perfect matches...")
         # এখানে আপনার রিকোয়েস্ট অনুযায়ী লেটেস্ট 3.1 Pro মডেল ব্যবহার করা হলো
         response = client.models.generate_content(
-            model='gemini-3.1-pro', 
+            model='gemini-flash-lite-latest', 
             contents=prompt,
             config=types.GenerateContentConfig(
                 tools=[types.Tool(google_search=types.GoogleSearch())],
