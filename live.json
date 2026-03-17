@@ -1,31 +1,31 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 2nd T20I (Match Ended)",
-    "status": "LIVE NOW",
-    "stream_url": "",
+    "title": "KRW vs SIAL - Pakistan National T20 Cup",
+    "status": "SCHEDULED (5:00 PM Local)",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541835151111-a7186819427c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJhbnNtaXNzaW9ufGVufDB8fHx8MTcxMDY0NjYwMHww&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1542838132-14431210308d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY0ODAw&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://www.fancode.com/"
+    "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield: NSW vs Western Australia (Day 4 End)",
-      "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541835151111-a7186819427c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJhbnNtaXNzaW9ufGVufDB8fHx8MTcxMDY0NjYwMHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "New Zealand vs South Africa 2nd T20I (Match Ended)",
+      "time": "ENDED",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14431210308d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY0ODAw&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Sheffield Shield: Victoria vs South Australia (Day 4 End)",
-      "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541835151111-a7186819427c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJhbnNtaXNzaW9ufGVufDB8fHx8MTcxMDY0NjYwMHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Sheffield Shield: Victoria vs South Australia (Draw)",
+      "time": "ENDED",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14431210308d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY0ODAw&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 2nd T20I has concluded with New Zealand winning by 68 runs to level the series 1-1. Several Sheffield Shield matches scheduled to end today also appear to be concluding or have ended in draws.",
-  "timestamp": "2026-03-17T13:07:09.812186"
+  "summary": "The New Zealand vs South Africa 2nd T20I concluded with New Zealand winning by 68 runs to level the series 1-1. The Sheffield Shield match between Victoria and South Australia ended in a draw. The Pakistan National T20 Cup match between KRW and SIAL is scheduled for 5:00 PM local time.",
+  "timestamp": "2026-03-17T13:10:11.235829"
 }
