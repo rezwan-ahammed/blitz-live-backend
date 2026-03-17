@@ -1,9 +1,23 @@
 {
   "hero_match": {
-    "title": "Sporting CP vs Bodoe/Glimt - UEFA Champions League",
-    "status": "LIVE NOW",
-    "stream_url": "http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8",
+    "title": "New Zealand vs South Africa 2nd T20I",
+    "status": "LIVE NOW (In Progress)",
+    "stream_url": "No direct match channel found in list. Check BahrainSports1.bh as a general sports option.",
     "user_agent": "Default",
     "referer": "Default"
-  }
+  },
+  "ranked_matches": [
+    {
+      "title": "New Zealand vs South Africa 2nd T20I",
+      "time": "LIVE",
+      "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8"
+    },
+    {
+      "title": "European Football (e.g., Champions League fixtures listed)",
+      "time": "Check local listings (No confirmed LIVE match found)",
+      "url": "N/A"
+    }
+  ],
+  "summary": "The major live event today is the New Zealand vs South Africa 2nd T20I cricket match, where South Africa is chasing New Zealand's total of 175/6. Several European football fixtures are scheduled for today, but their live status is unconfirmed. No specific broadcaster for the cricket match was found in the provided IPTV list, so BahrainSports1.bh is listed as a potential sports channel.",
+  "timestamp": "2026-03-17T08:52:46.845200"
 }
