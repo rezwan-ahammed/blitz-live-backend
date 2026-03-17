@@ -7,134 +7,111 @@ from datetime import datetime
 from google import genai
 from google.genai import types
 
-# ১. প্রফেশনাল লগিং সেটআপ
+# ১. প্রফেশনাল লগিং এবং ক্লায়েন্ট সেটআপ
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# ২. জেমিনি ক্লায়েন্ট সেটআপ
 api_key = os.environ.get("GEMINI_API_KEY")
 if not api_key:
-    logger.error("GEMINI_API_KEY is missing! Check GitHub Secrets.")
+    logger.error("GEMINI_API_KEY missing!")
     exit(1)
 
 client = genai.Client(api_key=api_key)
 
-def get_premium_persistent_channels():
-    """১০০% ওয়ার্কিং এবং আনব্লকড গ্লোবাল স্পোর্টস চ্যানেল (Black Screen হবে না)"""
-    return [
-        {"name": "Red Bull TV Live (Extreme Sports)", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"},
-        {"name": "CBS Sports HQ (News & Live)", "url": "https://cbsn-cbsn-sports-smarttv.amagi.tv/playlist.m3u8"},
-        {"name": "FIFA+ Live TV (Football)", "url": "https://fifa-world-cup.amagi.tv/playlist.m3u8"}
-    ]
-
-def fetch_dynamic_live_events():
-    """রিয়েল-টাইম সোর্স থেকে আজকের লাইভ ইভেন্ট ডাটা টানা"""
-    logger.info("📡 Scanning multiple sources for dynamic live events...")
-    live_links = []
+def fetch_github_raw_data():
+    """আপনার রিসার্চ করা ডাইনামিক সোর্সগুলো থেকে ডাটা এক্সট্রাক্ট করা"""
+    logger.info("📡 Scanning GitHub for dynamic match tokens...")
+    stream_pool = []
     
-    try:
-        # FanCode বা অন্যান্য ওপেন সোর্স রিয়েল-টাইম API
-        res = requests.get("https://raw.githubusercontent.com/byte-capsule/FanCode-Hls-Fetcher/main/live.json", timeout=10)
-        if res.status_code == 200:
-            data = res.json()
-            for match in data.get("matches", []):
-                if match.get("stream_url"):
-                    live_links.append({
-                        "name": match.get("title", "Live Match"),
-                        "url": match.get("stream_url")
-                    })
-    except Exception as e:
-        logger.warning(f"⚠️ Dynamic Source failed (it's normal): {str(e)}")
-        
-    return live_links
-
-def get_hybrid_stream_pool():
-    """সব সোর্স মিলিয়ে একটি মাস্টার পোল তৈরি করা"""
-    pool = fetch_dynamic_live_events()
-    pool.extend(get_premium_persistent_channels())
-    logger.info(f"🎯 Hybrid Pool Ready with {len(pool)} ultra-reliable streams.")
-    return pool
-
-def clean_and_verify_data(parsed_json, stream_pool):
-    """Anti-Hallucination Firewall: ভুয়া ছবি এবং লিংক ব্লক করা"""
-    try:
-        valid_urls = [s["url"] for s in stream_pool]
-        default_img = "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop"
-        default_list_img = "https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=300&auto=format&fit=crop"
-        
-        def is_safe_image(url):
-            if not url or not str(url).startswith('http'): return False
-            img_url_lower = str(url).lower()
-            # এআই-এর বানানো ভুয়া সাইটগুলো ব্লক
-            if 'example.com' in img_url_lower or 'imgur.com' in img_url_lower: 
-                return False 
-            return True
-
-        # ১. হিরো ম্যাচ ভ্যালিডেশন
-        hero = parsed_json.get("hero_match", {})
-        hero_url = hero.get("stream_url", "")
-        if hero_url not in valid_urls and hero_url != "":
-            parsed_json["hero_match"]["stream_url"] = valid_urls[0] if valid_urls else ""
-            logger.warning("⚠️ AI hallucinated hero URL. Restored to default.")
+    sources = [
+        # FanCode (Cricket/Football)
+        {"url": "https://raw.githubusercontent.com/byte-capsule/FanCode-Hls-Fetcher/main/Fancode_hls_m3u8.Json", "type": "fancode"},
+        # Toffee (Local Channels)
+        {"url": "https://raw.githubusercontent.com/Gtajisan/Toffee-Auto-Update-Playlist/main/toffee_channel_data.json", "type": "toffee"}
+    ]
+    
+    for src in sources:
+        try:
+            r = requests.get(src["url"], timeout=15)
+            if r.status_code == 200:
+                data = r.json()
+                if src["type"] == "fancode":
+                    for m in data.get("matches", []):
+                        if m.get("stream_url"):
+                            stream_pool.append({"name": m.get("event_name"), "url": m.get("stream_url")})
+                elif src["type"] == "toffee":
+                    for c in data.get("channels", []):
+                        if c.get("link"):
+                            stream_pool.append({"name": c.get("name"), "url": c.get("link")})
+        except Exception as e:
+            logger.warning(f"⚠️ Source failed: {src['url'][:30]}... {str(e)}")
             
-        if not is_safe_image(hero.get("image_url", "")):
-            parsed_json["hero_match"]["image_url"] = default_img
-            logger.warning("⚠️ AI provided fake hero image. Replaced with default.")
+    # ব্যাকআপ গ্লোবাল চ্যানেল (যদি উপরের সোর্সগুলো খালি থাকে)
+    stream_pool.append({"name": "Red Bull TV Live", "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"})
+    stream_pool.append({"name": "Al Jazeera Live English", "url": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8"})
+    
+    logger.info(f"🎯 Total {len(stream_pool)} verified streams in pool.")
+    return stream_pool
 
-        # ২. র‍্যাঙ্কড ম্যাচেস ভ্যালিডেশন
-        if "ranked_matches" in parsed_json and isinstance(parsed_json["ranked_matches"], list):
-            cleaned = []
-            for match in parsed_json["ranked_matches"]:
-                # লিংক ভ্যালিডেশন
-                match_url = match.get("url", "")
-                if match_url not in valid_urls and match_url != "":
-                    match["url"] = valid_urls[0] if valid_urls else ""
+def clean_and_verify(parsed_json, pool):
+    """Firewall: ভুয়া ছবি এবং ভুল লিঙ্ক ঠিক করা"""
+    valid_urls = [s["url"] for s in pool]
+    default_img = "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop"
+    
+    def is_safe(url):
+        u = str(url).lower()
+        return u.startswith('http') and 'example.com' not in u and 'imgur.com' not in u
+
+    # হিরো ম্যাচ চেক
+    hero = parsed_json.get("hero_match", {})
+    if hero.get("stream_url") not in valid_urls:
+        parsed_json["hero_match"]["stream_url"] = valid_urls[0] if valid_urls else ""
+    if not is_safe(hero.get("image_url")):
+        parsed_json["hero_match"]["image_url"] = default_img
+
+    # র‍্যাঙ্কড ম্যাচেস চেক
+    if "ranked_matches" in parsed_json:
+        for m in parsed_json["ranked_matches"]:
+            if m.get("url") not in valid_urls:
+                m["url"] = valid_urls[0] if valid_urls else ""
+            if not is_safe(m.get("image_url")):
+                m["image_url"] = default_img
                 
-                # ইমেজ ভ্যালিডেশন
-                if not is_safe_image(match.get("image_url", "")):
-                    match["image_url"] = default_list_img
-                    
-                cleaned.append(match)
-            parsed_json["ranked_matches"] = cleaned
-        
-        return parsed_json
-    except Exception as e:
-        logger.error(f"❌ Firewall Error: {str(e)}")
-        return parsed_json
+    return parsed_json
 
-def ai_brain_matcher(stream_pool):
-    """এআই গুগল সার্চ করে রিয়েল ম্যাচের সাথে স্ট্রিম পোল ম্যাচ করাবে"""
+def generate_live_json(pool):
+    """এআই দিয়ে রিয়েল-টাইম শিডিউল এবং ইমেজ ম্যাপিং করা"""
     current_time = datetime.now().strftime("%B %d, %Y - %H:%M UTC")
-    pool_data = json.dumps(stream_pool, indent=2)
+    pool_str = json.dumps(pool[:30], indent=2) # এআই-কে সেরা ৩০টি অপশন দেওয়া হচ্ছে
     
     prompt = f"""
-    Time: {current_time}.
+    Current Time: {current_time}.
     
     MISSION: 
-    1. Search Google for today's LIVE and UPCOMING sports matches.
-    2. Map them ONLY to the working URLs from this HYBRID POOL:
-    {pool_data}
+    1. Search Google for today's LIVE cricket and football matches.
+    2. Map them only to the URLs from this pool: {pool_str}
     
     STRICT RULES:
-    - YOU MUST NOT INVENT URLs. Use EXACT URLs from the HYBRID POOL.
-    - Provide realistic 'image_url' for each match from reliable sources (like unsplash or official sites). DO NOT use example.com or imgur.com.
+    - stream_url MUST be from the pool.
+    - Match Bangladesh/IPL/BPL matches with FanCode or Toffee URLs.
+    - Provide high-quality sports images (Unsplash/Official sites). No example.com.
     
     OUTPUT FORMAT (JSON ONLY):
     {{
       "hero_match": {{
-        "title": "Clean Match Name",
-        "status": "LIVE NOW (or Time)",
+        "title": "Match Name",
+        "status": "LIVE NOW",
         "stream_url": "URL_FROM_POOL",
-        "image_url": "REALISTIC_IMAGE_LINK",
-        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
+        "image_url": "REAL_IMAGE_URL",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "referer": "Default"
       }},
       "ranked_matches": [
         {{
-          "title": "Clean Match Name",
+          "title": "Match Name",
           "time": "LIVE",
           "url": "URL_FROM_POOL",
-          "image_url": "REALISTIC_IMAGE_LINK"
+          "image_url": "REAL_IMAGE_URL"
         }}
       ],
       "summary": "Brief update."
@@ -142,76 +119,47 @@ def ai_brain_matcher(stream_pool):
     """
     
     try:
-        logger.info("🧠 AI is mapping real matches to Hybrid Pool...")
-        # 404 এরর এড়াতে এপিআই-এর লেটেস্ট স্ট্যাবল মডেল (gemini-2.0-flash) দেওয়া হয়েছে
+        logger.info("🧠 AI is analyzing today's matches and mapping URLs...")
         response = client.models.generate_content(
-            model='gemini-flash-lite-latest', 
+            model='gemini-flash-lite-latest', # লেটেস্ট এবং ফাস্ট
             contents=prompt,
             config=types.GenerateContentConfig(
                 tools=[types.Tool(google_search=types.GoogleSearch())],
-                temperature=0.1 
+                temperature=0.1
             )
         )
         
         output = response.text.strip()
-        start = output.find("{")
-        end = output.rfind("}") + 1
-        
-        if start != -1 and end != 0:
-            parsed_json = json.loads(output[start:end])
-            # ফায়ারওয়াল দিয়ে ডেটা ক্লিন করা
-            return clean_and_verify_data(parsed_json, stream_pool)
-            
+        json_match = re.search(r'\{[\s\S]*\}', output)
+        if json_match:
+            parsed = json.loads(json_match.group())
+            return clean_and_verify(parsed, pool)
         return None
     except Exception as e:
-        logger.error(f"❌ AI Mapping Error: {str(e)}")
+        logger.error(f"❌ AI Error: {str(e)}")
         return None
 
-def fallback_data() -> dict:
-    """পুরো সিস্টেম ফেইল করলে এই ডাটা যাবে"""
-    fallback = {
-        "hero_match": {
-            "title": "Blitz Sports Hub",
-            "status": "Live Channels",
-            "stream_url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-            "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1000&auto=format&fit=crop",
-            "user_agent": "Mozilla/5.0",
-            "referer": "Default"
-        },
-        "ranked_matches": [
-            {
-              "title": "CBS Sports HQ",
-              "time": "LIVE 24/7",
-              "url": "https://cbsn-cbsn-sports-smarttv.amagi.tv/playlist.m3u8",
-              "image_url": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=300&auto=format&fit=crop"
-            }
-        ],
-        "summary": "Enjoy premium 24/7 sports channels while we fetch live matches.",
-        "timestamp": datetime.now().isoformat()
-    }
-    with open("live.json", "w", encoding="utf-8") as f:
-        json.dump(fallback, f, indent=2)
-
 def main():
-    print("🚀 BLITZ LIVE - The Ultimate Hybrid Engine")
+    print("🚀 BLITZ LIVE - The Research-Based Engine v3.0")
     print("=" * 60)
     
-    stream_pool = get_hybrid_stream_pool()
+    # ১. আপনার গিটহাব সোর্স থেকে ডাটা আনা
+    pool = fetch_github_raw_data()
     
-    if not stream_pool:
-        fallback_data()
+    if not pool:
+        logger.error("❌ Pool is empty. Check GitHub sources.")
         return
         
-    final_data = ai_brain_matcher(stream_pool)
+    # ২. এআই দিয়ে আজকের ম্যাচের সাথে লিঙ্ক ম্যাপ করা
+    final_data = generate_live_json(pool)
     
     if final_data:
         final_data['timestamp'] = datetime.now().isoformat()
         with open("live.json", "w", encoding="utf-8") as f:
             json.dump(final_data, f, indent=2, ensure_ascii=False)
-        logger.info("✅ SUCCESS: Bulletproof Hybrid Data Saved!")
+        logger.info("✅ SUCCESS: live.json updated perfectly!")
     else:
-        logger.warning("⚠️ AI failed to format. Using fallback.")
-        fallback_data()
+        logger.error("❌ AI failed to format data.")
 
 if __name__ == "__main__":
     main()
