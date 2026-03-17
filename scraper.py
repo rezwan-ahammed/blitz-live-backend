@@ -3,87 +3,112 @@ import json
 import requests
 from google import genai
 from google.genai import types
+from datetime import datetime
+import logging
 
-# ১. জেমিনি ক্লায়েন্ট সেটআপ
+# ১. প্রফেশনাল লগিং সেটআপ
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+# ২. ক্লায়েন্ট সেটআপ
 api_key = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 
-def fetch_iptv_links():
+def fetch_filtered_streams():
+    """আপনার আইডিয়া অনুযায়ী স্পোর্টস চ্যানেলগুলো ফিল্টার করা"""
     try:
+        logger.info("📡 Fetching IPTV streams...")
         response = requests.get("https://iptv-org.github.io/api/streams.json", timeout=15)
         data = response.json()
-        target_ids = ['TSports.bd', 'StarSports1.in', 'PTVSports.pk', 'SonyTen1.in', 'GaziTV.bd', 'Willow.us']
-        streams = [s for s in data if s.get('channel') in target_ids]
-        return str(streams[:10])
-    except:
-        return "[]"
+        
+        keywords = ['sports', 'cricket', 'football', 'ten', 'willow', 'tsports', 'gtv', 'star', 'sky', 'sony', 'bein']
+        
+        filtered = []
+        for s in data:
+            channel_id = str(s.get('channel', '')).lower()
+            if any(key in channel_id for key in keywords):
+                filtered.append({
+                    'id': s.get('channel'),
+                    'url': s.get('url'),
+                    'ua': s.get('user_agent', 'Default'),
+                    'ref': s.get('http_referrer', 'Default')
+                })
+        
+        logger.info(f"✅ Found {len(filtered)} sports streams")
+        return filtered[:60] # এআইকে ৬০টি অপশন দেবো বেছে নেওয়ার জন্য
+    except Exception as e:
+        logger.error(f"❌ Fetch Error: {str(e)}")
+        return []
 
-def generate_smart_json(iptv_data):
-    prompt = f"""
-    Search Google for any LIVE major sports matches happening now (March 17, 2026).
-    Pick the best match and match with this IPTV data: {iptv_data}
-    Output ONLY ONE valid JSON object for Blitz Live app.
+def generate_intelligent_data(stream_list):
+    """গুগল সার্চ ব্যবহার করে ম্যাচ এবং লিংকের মধ্যে পারফেক্ট রিলেশন তৈরি করা"""
     
-    Structure:
+    current_date = datetime.now().strftime("%B %d, %2026")
+    
+    prompt = f"""
+    Today is {current_date}. 
+    
+    TASK:
+    1. Search Google for today's LIVE major cricket and football matches.
+    2. From this IPTV list, find the EXACT channel that broadcasts each match:
+    {json.dumps(stream_list)}
+    
+    MAPPING LOGIC:
+    - NZ vs SA -> Look for SuperSport, Sky Sports, or GTV/TSports.
+    - Bangladesh Matches -> Priority GTV or T Sports.
+    - IPL/India -> Star Sports or Sony Ten.
+    - European Football -> beIN Sports or Sony Ten/Sky.
+    
+    OUTPUT STRUCTURE (Strict JSON):
     {{
       "hero_match": {{
-        "title": "Match Name",
+        "title": "Top Popular Live Match Name",
         "status": "LIVE NOW",
-        "stream_url": "url",
-        "user_agent": "Default",
-        "referer": "Default"
-      }}
+        "stream_url": "best working link",
+        "user_agent": "ua",
+        "referer": "ref"
+      }},
+      "ranked_matches": [
+         {{ "title": "Match Name", "time": "LIVE", "url": "link" }}
+      ],
+      "summary": "Sports update summary"
     }}
-    CRITICAL: Output exactly ONE JSON object. No repetitions.
     """
+    
     try:
+        logger.info("🧠 AI is analyzing and matching streams...")
         response = client.models.generate_content(
-            model='gemini-2.5-flash-lite',
+            model='gemini-flash-lite-latest',
             contents=prompt,
             config=types.GenerateContentConfig(
-                tools=[types.Tool(google_search=types.GoogleSearch())]
+                tools=[types.Tool(google_search=types.GoogleSearch())],
+                temperature=0.2 # কম টেম্পারেচার মানে বেশি নির্ভুল ডাটা
             )
         )
-        return response.text.strip()
+        
+        output = response.text.strip()
+        if "{" in output:
+            output = output[output.find("{"):output.rfind("}")+1]
+        
+        return json.loads(output)
     except Exception as e:
-        print(f"AI Error: {str(e)}")
-        return ""
+        logger.error(f"❌ AI Logic Error: {str(e)}")
+        return None
+
+def main():
+    streams = fetch_filtered_streams()
+    if not streams:
+        return
+
+    final_data = generate_intelligent_data(streams)
+    
+    if final_data:
+        final_data['timestamp'] = datetime.now().isoformat()
+        with open("live.json", "w", encoding="utf-8") as f:
+            json.dump(final_data, f, indent=2, ensure_ascii=False)
+        logger.info("✅ SUCCESS: live.json updated with relevant match data!")
+    else:
+        logger.warning("⚠️ Using fallback data due to AI failure")
 
 if __name__ == "__main__":
-    print("🚀 Blitz Live Engine Starting...")
-    raw = fetch_iptv_links()
-    ai_output = generate_smart_json(raw)
-    
-    print(f"--- AI RAW OUTPUT ---\n{ai_output}\n---------------------")
-
-    try:
-        # জেসন ক্লিন করার "বুলেটপ্রুফ" লজিক
-        clean_json = ai_output
-        if "{" in clean_json:
-            # প্রথম '{' থেকে শুরু করে প্রথম '}' পর্যন্ত অংশটুকু শুধু নিবে
-            # এতে রিপিটেড জেসন থাকলে পরের গুলো বাদ পড়ে যাবে
-            start_index = clean_json.find("{")
-            
-            # নিখুঁত ব্র্যাকেট ম্যাচিং লজিক
-            count = 0
-            end_index = -1
-            for i in range(start_index, len(clean_json)):
-                if clean_json[i] == '{': count += 1
-                elif clean_json[i] == '}': count -= 1
-                if count == 0:
-                    end_index = i
-                    break
-            
-            clean_json = clean_json[start_index:end_index+1]
-        
-        json_obj = json.loads(clean_json)
-        
-        with open("live.json", "w", encoding="utf-8") as f:
-            f.write(json.dumps(json_obj, indent=2))
-        print(f"✅ SUCCESS: {json_obj['hero_match']['title']} is now LIVE!")
-        
-    except Exception as e:
-        print(f"❌ PARSE ERROR: {str(e)}")
-        fallback = {"hero_match": {"title": "Live Match Loading...", "status": "Updating...", "stream_url": "", "user_agent": "Default", "referer": "Default"}}
-        with open("live.json", "w") as f:
-            f.write(json.dumps(fallback))
+    main()
