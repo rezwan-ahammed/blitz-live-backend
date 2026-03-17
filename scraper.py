@@ -98,7 +98,7 @@ def ai_brain_matcher(stream_pool):
     try:
         logger.info("🧠 AI (gemini-2.0-flash) is mapping real matches to Hybrid Pool...")
         response = client.models.generate_content(
-            model='gemini-2.0-flash', 
+            model='gemini-flash-lite-latest', 
             contents=prompt,
             config=types.GenerateContentConfig(
                 tools=[types.Tool(google_search=types.GoogleSearch())],
