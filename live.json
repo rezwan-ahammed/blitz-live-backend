@@ -1,31 +1,31 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield, 2024-25: New South Wales vs Western Australia",
-    "status": "LIVE NOW",
-    "stream_url": "",
+    "title": "No Live Matches Found for Listed Events",
+    "status": "CHECK SCHEDULES",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1548870017-161013e4302e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1542838132-92c583420b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://www.fancode.com/"
+    "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25: Victoria vs South Australia",
-      "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1548870017-161013e4302e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sheffield Shield Final (Victoria vs South Australia)",
+      "time": "Starts March 26, 2026",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-92c583420b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Legends League Cricket (LLC): India Capitals vs Manipal Tigers",
-      "time": "Scheduled 19:30 UTC",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1548870017-161013e4302e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "AFC U20 Asian Cup China 2025 (Tournament in April 2026)",
+      "time": "Scheduled April 2026",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-92c583420b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Sheffield Shield, 2024-25 season is active with matches like New South Wales vs Western Australia and Victoria vs South Australia currently in play. The AFC U20 Asian Cup China, 2025 has concluded. There are no live Chandigarh T20 matches reported.",
-  "timestamp": "2026-03-18T19:01:24.061702"
+  "summary": "No live matches were found for Chandigarh T20, Sheffield Shield, or AFC U20 Asian Cup on March 18, 2026. The Sheffield Shield season concluded its final round, with the Final scheduled for March 26. The AFC U20 Women's Asian Cup is scheduled for April 2026.",
+  "timestamp": "2026-03-18T21:35:45.471318"
 }
