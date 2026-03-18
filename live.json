@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "Legends League Cricket (LLC): Konark Suryas Odisha vs India Tigers (Scheduled 7:30 PM IST)",
-    "status": "UPCOMING",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "title": "Pakistan National T20 Cup Final: KRW vs ABT",
+    "status": "LIVE NOW",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146428-a3a7b64e8790?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541834146428-a3a7b64e4719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjAw&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "CSA One-Day Cup: Tuskers vs DP World Lions (Scheduled)",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1579451901896-c3e90f19d68a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwb25lJTIwZGF5JTIwY3VwfGVufDB8fHx8MTcxMTU2NTY2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Legends League Cricket 2026: IC vs IT",
+      "time": "LIVE (7:30 PM IST Start)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/star_jalsha/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541834146428-a3a7b64e4719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjAw&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "CSA One-Day Cup: Warriors vs Titans (Scheduled)",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten3_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1579451901896-c3e90f19d68a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwb25lJTIwZGF5JTIwY3VwfGVufDB8fHx8MTcxMTU2NTY2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Sheffield Shield, 2024-25 (No active match found for today)",
-      "time": "No Live Match",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542744170-e8c2c2f2452d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHx0ZXN0JTIwY3JpY2tldHxlbnwwfHx8fDE3MTE1NjU2Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "CSA One-Day Cup: Tuskers vs DP World Lions",
+      "time": "UPCOMING (Various Times)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541834146428-a3a7b64e4719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjAw&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The AFC U20 Asian Cup 2025 has concluded. The main cricket event scheduled for today is the Legends League Cricket (LLC) match between Konark Suryas Odisha and India Tigers (scheduled for 7:30 PM IST). No active Sheffield Shield matches were found for March 18, 2026, as the final is later this month. CSA One-Day Cup matches are also scheduled.",
-  "timestamp": "2026-03-18T09:56:41.613487"
+  "summary": "The AFC U20 Asian Cup 2025 and Sheffield Shield 2024-25 have concluded or are not scheduled for today. The main live cricket event appears to be the Pakistan National T20 Cup Final (KRW vs ABT), which is mapped to the first Chandigarh T20 stream. The Legends League Cricket match (IC vs IT) is also scheduled for later today.",
+  "timestamp": "2026-03-18T13:15:30.335908"
 }
