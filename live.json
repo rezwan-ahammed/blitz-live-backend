@@ -1,31 +1,31 @@
 {
   "hero_match": {
-    "title": "Pakistan National T20 Cup Final: KRW vs ABT",
+    "title": "Sheffield Shield, 2024-25: New South Wales vs Western Australia",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146416-d914a0ce04a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2MTk3ODQ0Mjg&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1548870017-161013e4302e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "CSA One-Day Cup: Tuskers vs DP World Lions",
+      "title": "Sheffield Shield, 2024-25: Victoria vs South Australia",
       "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146416-d914a0ce04a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2MTk3ODQ0Mjg&ixlib=rb-1.2.1&q=80&w=1080",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1548870017-161013e4302e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "CSA One-Day Cup: Warriors vs Titans",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146416-d914a0ce04a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2MTk3ODQ0Mjg&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "Legends League Cricket (LLC): India Capitals vs Manipal Tigers",
+      "time": "Scheduled 19:30 UTC",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1548870017-161013e4302e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The main cricket focus today appears to be on the CSA One-Day Cup matches in South Africa and the Pakistan National T20 Cup Final (KRW vs ABT). No matches are currently scheduled for the Chandigarh T20, Sheffield Shield, or AFC U20 Asian Cup.",
-  "timestamp": "2026-03-18T16:12:22.024176"
+  "summary": "The Sheffield Shield, 2024-25 season is active with matches like New South Wales vs Western Australia and Victoria vs South Australia currently in play. The AFC U20 Asian Cup China, 2025 has concluded. There are no live Chandigarh T20 matches reported.",
+  "timestamp": "2026-03-18T19:01:24.061702"
 }
