@@ -1,23 +1,39 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 2nd T20I (Match Concluded)",
+    "title": "SONY SPORTS TEN 2 HD",
     "status": "LIVE NOW",
-    "stream_url": "",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f291?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1542838132-14362037154e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxzcG9ydHN8ZW58MHx8fHwxNzExNjQ1NjY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://www.fancode.com/"
+    "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield: NSW vs WA (Match Ended in Draw)",
-      "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1542838132-10510240f071?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "CSA One-Day Cup: Tuskers vs DP World Lions",
+      "time": "LIVE/IN PROGRESS (Scheduled 00:30 UTC)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14362037154e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxzcG9ydHN8ZW58MHx8fHwxNzExNjQ1NjY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "CSA One-Day Cup: Warriors vs Titans",
+      "time": "SCHEDULED (04:00 UTC)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14362037154e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxzcG9ydHN8ZW58MHx8fHwxNzExNjQ1NjY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "Sheffield Shield, 2024-25: Ongoing Match (Check Local Listings)",
+      "time": "IN PROGRESS (Matches running Mar 17-20)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14362037154e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxzcG9ydHN8ZW58MHx8fHwxNzExNjQ1NjY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 2nd T20I concluded with New Zealand winning by 68 runs to level the series 1-1. The Sheffield Shield match between NSW and WA also ended in a draw today.",
-  "timestamp": "2026-03-17T21:39:49.375720"
+  "summary": "The AFC U20 Asian Cup 2025 has concluded. The Sheffield Shield 2024-25 is in its final stages, with matches running until March 20th, and the final scheduled for later in the month. CSA One-Day Cup matches are scheduled for today, March 18th. No Chandigarh T20 matches were found for today.",
+  "timestamp": "2026-03-18T02:23:21.199764"
 }
