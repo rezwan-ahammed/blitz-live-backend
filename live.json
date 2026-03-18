@@ -2,30 +2,30 @@
   "hero_match": {
     "title": "Pakistan National T20 Cup Final: KRW vs ABT",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146428-a3a7b64e4719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjAw&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541834146416-d914a0ce04a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2MTk3ODQ0Mjg&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Legends League Cricket 2026: IC vs IT",
-      "time": "LIVE (7:30 PM IST Start)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/star_jalsha/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-a3a7b64e4719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjAw&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "CSA One-Day Cup: Tuskers vs DP World Lions",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541834146416-d914a0ce04a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2MTk3ODQ0Mjg&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "CSA One-Day Cup: Tuskers vs DP World Lions",
-      "time": "UPCOMING (Various Times)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-a3a7b64e4719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjAw&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "CSA One-Day Cup: Warriors vs Titans",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541834146416-d914a0ce04a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2MTk3ODQ0Mjg&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The AFC U20 Asian Cup 2025 and Sheffield Shield 2024-25 have concluded or are not scheduled for today. The main live cricket event appears to be the Pakistan National T20 Cup Final (KRW vs ABT), which is mapped to the first Chandigarh T20 stream. The Legends League Cricket match (IC vs IT) is also scheduled for later today.",
-  "timestamp": "2026-03-18T13:15:30.335908"
+  "summary": "The main cricket focus today appears to be on the CSA One-Day Cup matches in South Africa and the Pakistan National T20 Cup Final (KRW vs ABT). No matches are currently scheduled for the Chandigarh T20, Sheffield Shield, or AFC U20 Asian Cup.",
+  "timestamp": "2026-03-18T16:12:22.024176"
 }
