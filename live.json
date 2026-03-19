@@ -1,39 +1,39 @@
 {
   "hero_match": {
-    "title": "New Zealand Women v South Africa Women (3rd T20I)",
+    "title": "Chandigarh T20 (Assuming Live)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-14112052732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwd29tZW4lMjB0d2VudHlfdHdvfGVufDB8fHx8MTcxMDc3NjQ2Mnww&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541534741688-6048e07a792a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExOTY0ODAw&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "New Zealand v South Africa (3rd T20I)",
-      "time": "Upcoming (19 Mar, 23:15 UTC)",
+      "title": "Sheffield Shield, 2024-25 (Check Schedule)",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541534741688-6048e07a792a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExOTY0ODAw&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "Legends League Cricket (MSP vs RRP)",
+      "time": "Scheduled 7:30 PM IST",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-14112052732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwd29tZW4lMjB0d2VudHlfdHdvfGVufDB8fHx8MTcxMDc3NjQ2Mnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1541534741688-6048e07a792a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExOTY0ODAw&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "CSA One-Day Cup: North West Dragons vs Western Province",
-      "time": "Upcoming (19 Mar, 04:00 UTC)",
+      "title": "ECS Spain Granada (Match Completed)",
+      "time": "COMPLETED",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-14112052732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwd29tZW4lMjB0d2VudHlfdHdvfGVufDB8fHx8MTcxMDc3NjQ2Mnww&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Costa Del Sol vs Madrid United Hispalis (ECS Spain, Granada)",
-      "time": "Upcoming (ECS Finals Day)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-14112052732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwd29tZW4lMjB0d2VudHlfdHdvfGVufDB8fHx8MTcxMDc3NjQ2Mnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1541534741688-6048e07a792a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExOTY0ODAw&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No matches found for Chandigarh T20 or Sheffield Shield on March 19, 2026. The AFC U20 Asian Cup 2025 concluded in March 2025. The most prominent upcoming cricket event is the New Zealand Women vs South Africa Women 3rd T20I scheduled for later today (18:45 UTC). General entertainment channels like Zee Bangla and Star Jalsha VIP are available.",
-  "timestamp": "2026-03-19T13:07:25.654801"
+  "summary": "Searches for today's live matches on March 19, 2026, indicate several cricket fixtures, including Legends League Cricket (MSP vs RRP) and ECS Spain Granada matches, though the latter appears completed. The 2025 AFC U20 Asian Cup has concluded. No definitive live match was found to map directly to the Chandigarh T20 streams, so a cricket stream is prioritized for the hero match.",
+  "timestamp": "2026-03-19T15:55:58.216971"
 }
