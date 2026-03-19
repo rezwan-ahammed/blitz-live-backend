@@ -1,31 +1,39 @@
 {
   "hero_match": {
-    "title": "No Live Matches Found for Listed Events",
-    "status": "CHECK SCHEDULES",
+    "title": "West Indies Women vs Australia Women - 1st T20I",
+    "status": "SCHEDULED (15:30 UTC)",
     "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-92c583420b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1541259908400-f68f3e954613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjAw&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final (Victoria vs South Australia)",
-      "time": "Starts March 26, 2026",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-92c583420b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "New Zealand vs South Africa - 3rd T20I",
+      "time": "SCHEDULED (23:15 UTC)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541259908400-f68f3e954613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjAw&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "AFC U20 Asian Cup China 2025 (Tournament in April 2026)",
-      "time": "Scheduled April 2026",
+      "title": "Legends League Cricket: Mumbai Spartans vs Southern Super Stars",
+      "time": "SCHEDULED",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-92c583420b00?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_url": "https://images.unsplash.com/photo-1541259908400-f68f3e954613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjAw&ixlib=rb-1.2.1&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "CSA One-Day Cup: North West Dragons vs Western Province",
+      "time": "SCHEDULED (04:00 UTC)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541259908400-f68f3e954613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjAw&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No live matches were found for Chandigarh T20, Sheffield Shield, or AFC U20 Asian Cup on March 18, 2026. The Sheffield Shield season concluded its final round, with the Final scheduled for March 26. The AFC U20 Women's Asian Cup is scheduled for April 2026.",
-  "timestamp": "2026-03-18T21:35:45.471318"
+  "summary": "Several cricket matches are scheduled for today, March 19, 2026, including T20Is between New Zealand/South Africa and West Indies Women/Australia Women, and a Legends League Cricket fixture. The Sheffield Shield and AFC U20 Asian Cup are not currently active.",
+  "timestamp": "2026-03-19T02:24:16.809399"
 }
