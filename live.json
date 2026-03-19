@@ -1,71 +1,39 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield, 2024-25 (No Live Match Today)",
-    "status": "UPCOMING",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+    "title": "New Zealand Women v South Africa Women (3rd T20I)",
+    "status": "LIVE NOW",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541835131-121510131272?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1542838132-14112052732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwd29tZW4lMjB0d2VudHlfdHdvfGVufDB8fHx8MTcxMDc3NjQ2Mnww&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Legends League Cricket: MSP vs RRP (Starts 14:04 UTC)",
-      "time": "14:04 UTC",
+      "title": "New Zealand v South Africa (3rd T20I)",
+      "time": "Upcoming (19 Mar, 23:15 UTC)",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-121510131272?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14112052732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwd29tZW4lMjB0d2VudHlfdHdvfGVufDB8fHx8MTcxMDc3NjQ2Mnww&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "New Zealand v South Africa 3rd T20I (Starts 23:15 UTC)",
-      "time": "23:15 UTC",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-121510131272?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "CSA One-Day Cup: North West Dragons vs Western Province (Starts 04:00 UTC)",
-      "time": "04:00 UTC (Mar 20)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_3/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-121510131272?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Chandigarh T20 (No specific match found)",
-      "time": "TBD",
+      "title": "CSA One-Day Cup: North West Dragons vs Western Province",
+      "time": "Upcoming (19 Mar, 04:00 UTC)",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-121510131272?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14112052732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwd29tZW4lMjB0d2VudHlfdHdvfGVufDB8fHx8MTcxMDc3NjQ2Mnww&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Chandigarh T20 (No specific match found)",
-      "time": "TBD",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_sd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-121510131272?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "AFC U20 Asian Cup China, 2025 (Tournament in April 2026)",
-      "time": "N/A",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-121510131272?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "AFC U20 Asian Cup China, 2025 (Tournament in April 2026)",
-      "time": "N/A",
+      "title": "Costa Del Sol vs Madrid United Hispalis (ECS Spain, Granada)",
+      "time": "Upcoming (ECS Finals Day)",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-121510131272?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14112052732e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwd29tZW4lMjB0d2VudHlfdHdvfGVufDB8fHx8MTcxMDc3NjQ2Mnww&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No live sports matches were found for the listed cricket or football tournaments at 09:44 UTC on March 19, 2026. The earliest scheduled event is the Legends League Cricket match between MSP and RRP at 14:04 UTC. The Sheffield Shield Final is scheduled for later this month.",
-  "timestamp": "2026-03-19T09:45:03.714505"
+  "summary": "No matches found for Chandigarh T20 or Sheffield Shield on March 19, 2026. The AFC U20 Asian Cup 2025 concluded in March 2025. The most prominent upcoming cricket event is the New Zealand Women vs South Africa Women 3rd T20I scheduled for later today (18:45 UTC). General entertainment channels like Zee Bangla and Star Jalsha VIP are available.",
+  "timestamp": "2026-03-19T13:07:25.654801"
 }
