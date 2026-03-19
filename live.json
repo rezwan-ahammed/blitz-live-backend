@@ -1,39 +1,39 @@
 {
   "hero_match": {
-    "title": "No Live Matches Found - Using Placeholder",
-    "status": "NO LIVE MATCHES",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "title": "Sheffield Shield (No Live Match Today)",
+    "status": "NO LIVE MATCH",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-143045102148?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1542717478-342043256325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25 (Placeholder)",
-      "time": "No Matches Today",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-143045102148?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Chandigarh T20 (No Match Scheduled)",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542717478-342043256325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Chandigarh T20 (Placeholder)",
-      "time": "No Matches Today",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-143045102148?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sheffield Shield, 2024-25 (Final on Mar 26)",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542717478-342043256325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "AFC U20 Asian Cup China, 2025 (Placeholder)",
-      "time": "Tournament Concluded",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-143045102148?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "AFC U20 Asian Cup China, 2025 (Tournament Concluded)",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_3/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542717478-342043256325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No active real matches were found for the listed tournaments (Chandigarh T20, Sheffield Shield, AFC U20 Asian Cup) at 19:00 UTC on March 19, 2026. The Sheffield Shield final is scheduled for later in the month, and the AFC U20 Asian Cup concluded in 2025. The closest cricket event is the NZ vs SA T20I scheduled for later today/early tomorrow UTC.",
-  "timestamp": "2026-03-19T19:00:08.868122"
+  "summary": "No live matches were found for Chandigarh T20, Sheffield Shield (2024-25 season final is later), or AFC U20 Asian Cup China (2025 tournament concluded). The streams listed are for general entertainment and news channels.",
+  "timestamp": "2026-03-19T21:37:06.731186"
 }
