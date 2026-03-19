@@ -1,39 +1,39 @@
 {
   "hero_match": {
-    "title": "West Indies Women vs Australia Women - 1st T20I",
-    "status": "SCHEDULED (15:30 UTC)",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "title": "Sheffield Shield, 2024-25 (Coverage/Replay)",
+    "status": "LIVE NOW",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541259908400-f68f3e954613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjAw&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f291?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "New Zealand vs South Africa - 3rd T20I",
-      "time": "SCHEDULED (23:15 UTC)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541259908400-f68f3e954613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjAw&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "New Zealand vs South Africa 3rd T20I (Scheduled for Mar 20)",
+      "time": "Upcoming",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f291?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Legends League Cricket: Mumbai Spartans vs Southern Super Stars",
-      "time": "SCHEDULED",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541259908400-f68f3e954613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjAw&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "CSA One-Day Cup: North West Dragons vs Western Province (Scheduled)",
+      "time": "Upcoming",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f291?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "CSA One-Day Cup: North West Dragons vs Western Province",
-      "time": "SCHEDULED (04:00 UTC)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541259908400-f68f3e954613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjAw&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "AFC U20 Asian Cup China 2025 (Tournament Concluded)",
+      "time": "Finished",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1511887250981-1f589a835653?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "Several cricket matches are scheduled for today, March 19, 2026, including T20Is between New Zealand/South Africa and West Indies Women/Australia Women, and a Legends League Cricket fixture. The Sheffield Shield and AFC U20 Asian Cup are not currently active.",
-  "timestamp": "2026-03-19T02:24:16.809399"
+  "summary": "No matches were found to be actively live for the Chandigarh T20, Sheffield Shield, or AFC U20 Asian Cup on March 19, 2026. Several international cricket fixtures are scheduled for the coming days. The hero stream defaults to a major sports channel URL.",
+  "timestamp": "2026-03-19T04:55:21.441842"
 }
