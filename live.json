@@ -1,23 +1,31 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 3rd T20I",
-    "status": "LIVE NOW (Match Concluded/In Progress)",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+    "title": "New Zealand vs South Africa 3rd T20I (Result: NZ won by 9 wickets)",
+    "status": "LIVE NOW",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541428788-00719708521f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1541499671389-15447260014a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDQ0NDAw&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Chandigarh T20 League Match",
-      "time": "Scheduled 02:30 PM",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542796210-226270439317?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sheffield Shield, 2024-25 Final (Starts March 26)",
+      "time": "Upcoming",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541499671389-15447260014a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDQ0NDAw&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
+    },
+    {
+      "title": "AFC U20 Asian Cup China, 2025 (Tournament Concluded)",
+      "time": "Completed",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541499671389-15447260014a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDQ0NDAw&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 3rd T20I is the main event today, with live updates suggesting it is either live or has just finished. There is also a scheduled Chandigarh T20 match. No AFC U20 Asian Cup or Sheffield Shield Final matches are taking place today.",
-  "timestamp": "2026-03-20T18:52:24.031162"
+  "summary": "The New Zealand vs South Africa 3rd T20I concluded today, with New Zealand winning by 9 wickets to take a 2-1 series lead. The Sheffield Shield Final is scheduled for later this month. No matches were found for Chandigarh T20 or AFC U20 Asian Cup China, 2025 today.",
+  "timestamp": "2026-03-20T21:31:36.152685"
 }
