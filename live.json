@@ -4,20 +4,28 @@
     "status": "LIVE NOW",
     "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-100727843757?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdDIwJTIwbWF0Y2h8MHx8fHwxNzExNDQ0NDAw&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541834146416-d914a0ce04a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMjM0NTY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25 (No specific match found for today)",
-      "time": "No Live Match Found",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1587444089953-301252101c3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjbGFzc2ljJTIwY3JpY2tldHxlbnwwfHx8fDE3MTE0NDQ0MDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Chandigarh T20",
+      "time": "Scheduled",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1517649761447-f6483b9e2422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHx0MjAlMjBjcmlja2V0fGVufDB8fHx8MTcxMTAwMDAwMHww&ixlib=rb-4.0.3&q=80&w=400",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "Chandigarh T20",
+      "time": "Scheduled",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1517649761447-f6483b9e2422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHx0MjAlMjBjcmlja2V0fGVufDB8fHx8MTcxMTAwMDAwMHww&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The main live event today is the New Zealand vs South Africa 3rd T20I, with the series currently tied 1-1. No specific matches were found for the Sheffield Shield or AFC U20 Asian Cup on this date.",
-  "timestamp": "2026-03-20T06:57:39.416045"
+  "summary": "The New Zealand vs South Africa 3rd T20I is LIVE, with New Zealand in a strong position chasing South Africa's total of 136/9. The Sheffield Shield final has concluded, and the AFC U20 Asian Cup 2025 is over.",
+  "timestamp": "2026-03-20T09:43:24.803456"
 }
