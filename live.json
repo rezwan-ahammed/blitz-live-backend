@@ -1,23 +1,23 @@
 {
   "hero_match": {
     "title": "New Zealand vs South Africa 3rd T20I",
-    "status": "LIVE NOW (Match starts 06:15 GMT)",
+    "status": "LIVE NOW",
     "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146428-d3c77090298d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHR3ZW50eSUyMDI2JTIwY3JpY2tldHxlbnwwfHx8fDE2Nzg5MDY0Mjg&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1542838132-100727843757?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdDIwJTIwbWF0Y2h8MHx8fHwxNzExNDQ0NDAw&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "New Zealand vs South Africa 3rd T20I",
-      "time": "LIVE NOW",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-d3c77090298d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHR3ZW50eSUyMDI2JTIwY3JpY2tldHxlbnwwfHx8fDE2Nzg5MDY0Mjg&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Sheffield Shield, 2024-25 (No specific match found for today)",
+      "time": "No Live Match Found",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1587444089953-301252101c3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjbGFzc2ljJTIwY3JpY2tldHxlbnwwfHx8fDE3MTE0NDQ0MDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The main sporting event today is the 3rd T20I between New Zealand and South Africa, scheduled to start at 06:15 GMT. The 2025 AFC U20 Asian Cup has concluded, and the Sheffield Shield 2024-25 season is nearing its final stages, with the final set for later this month.",
-  "timestamp": "2026-03-20T04:48:56.347766"
+  "summary": "The main live event today is the New Zealand vs South Africa 3rd T20I, with the series currently tied 1-1. No specific matches were found for the Sheffield Shield or AFC U20 Asian Cup on this date.",
+  "timestamp": "2026-03-20T06:57:39.416045"
 }
