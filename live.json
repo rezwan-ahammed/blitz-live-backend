@@ -1,31 +1,47 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 3rd T20I (Result: NZ won by 9 wickets)",
+    "title": "New Zealand Women vs South Africa Women - 4th T20I",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541499671389-15447260014a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDQ0NDAw&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25 Final (Starts March 26)",
-      "time": "Upcoming",
+      "title": "New Zealand vs South Africa - 4th T20I",
+      "time": "LIVE",
       "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541499671389-15447260014a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDQ0NDAw&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://www.fancode.com/"
     },
     {
-      "title": "AFC U20 Asian Cup China, 2025 (Tournament Concluded)",
-      "time": "Completed",
+      "title": "West Indies Women vs Australia Women - 2nd T20I",
+      "time": "LIVE",
       "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541499671389-15447260014a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDQ0NDAw&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://www.fancode.com/"
+    },
+    {
+      "title": "Warriors vs Tuskers - CSA One-Day Cup",
+      "time": "LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://www.fancode.com/"
+    },
+    {
+      "title": "Sheffield Shield, 2024-25 (Finals Period)",
+      "time": "SCHEDULED",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 3rd T20I concluded today, with New Zealand winning by 9 wickets to take a 2-1 series lead. The Sheffield Shield Final is scheduled for later this month. No matches were found for Chandigarh T20 or AFC U20 Asian Cup China, 2025 today.",
-  "timestamp": "2026-03-20T21:31:36.152685"
+  "summary": "Today features several international cricket fixtures, including the 4th T20I between New Zealand Women and South Africa Women, and the 4th T20I between the senior men's teams of New Zealand and South Africa. The 2025 AFC U20 Asian Cup has concluded, and the Sheffield Shield is in its final stages.",
+  "timestamp": "2026-03-21T02:04:04.549511"
 }
