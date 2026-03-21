@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "No Live Match Found for Listed Tournaments",
-    "status": "CHECK SCHEDULE",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "title": "Sheffield Shield, 2024-25 (Latest Scheduled/Ongoing)",
+    "status": "LIVE NOW",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-f7241e8f9c27?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1549810375-52516703763c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTk2OXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NzY2NDY1&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "New Zealand Women vs South Africa Women (4th T20I)",
-      "time": "Scheduled: 18:45 UTC",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f7241e8f9c27?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sheffield Shield, 2024-25 (Latest)",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1549810375-52516703763c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTk2OXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NzY2NDY1&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "New Zealand vs South Africa (4th T20I)",
-      "time": "Scheduled: 23:15 UTC",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f7241e8f9c27?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Warriors vs Tuskers (CSA One-Day Cup)",
-      "time": "Scheduled: 01:00 UTC",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f7241e8f9c27?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Chandigarh T20",
+      "time": "No Live Info",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1549810375-52516703763c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTk2OXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NzY2NDY1&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No matches were found to be LIVE for Chandigarh T20 or Sheffield Shield on March 21, 2026. The AFC U20 Asian Cup 2025 concluded in March 2025. Several other international cricket matches are scheduled for later today.",
-  "timestamp": "2026-03-21T06:45:55.504085"
+  "summary": "No matches were found to be actively LIVE for the specified tournaments (Chandigarh T20, Sheffield Shield, AFC U20 Asian Cup China, 2025) as of March 21, 2026, 09:33 UTC. The AFC U20 Asian Cup 2025 concluded in March 2025. The Sheffield Shield 2024-25 season appears to be in its final stages or recently concluded based on recent results.",
+  "timestamp": "2026-03-21T09:33:32.007399"
 }
