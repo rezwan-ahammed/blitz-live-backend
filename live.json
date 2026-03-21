@@ -1,47 +1,39 @@
 {
   "hero_match": {
-    "title": "New Zealand Women vs South Africa Women - 4th T20I",
+    "title": "Sheffield Shield, 2024-25 (Ongoing)",
     "status": "LIVE NOW",
-    "stream_url": "",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541852717-e8428559736d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ2FtZXxlbnwwfHx8fDE3MTE2NjY2NjZ8MA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://www.fancode.com/"
+    "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "New Zealand vs South Africa - 4th T20I",
-      "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "New Zealand v South Africa - 4th T20I",
+      "time": "UPCOMING (23:15 UTC)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541852717-e8428559736d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ2FtZXxlbnwwfHx8fDE3MTE2NjY2NjZ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     },
     {
-      "title": "West Indies Women vs Australia Women - 2nd T20I",
-      "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "West Indies Women v Australia Women - 2nd T20I",
+      "time": "UPCOMING (15:30 UTC)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten3_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541852717-e8428559736d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ2FtZXxlbnwwfHx8fDE3MTE2NjY2NjZ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Warriors vs Tuskers - CSA One-Day Cup",
-      "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Warriors v Tuskers - CSA One-Day Cup",
+      "time": "UPCOMING (01:00 UTC - Already passed, listed as next in sequence)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541852717-e8428559736d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ2FtZXxlbnwwfHx8fDE3MTE2NjY2NjZ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
-    },
-    {
-      "title": "Sheffield Shield, 2024-25 (Finals Period)",
-      "time": "SCHEDULED",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1542838132-14312115704d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjB3b21lbnN8ZW58MHx8fHwxNzExNjY2NDY1&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "Today features several international cricket fixtures, including the 4th T20I between New Zealand Women and South Africa Women, and the 4th T20I between the senior men's teams of New Zealand and South Africa. The 2025 AFC U20 Asian Cup has concluded, and the Sheffield Shield is in its final stages.",
-  "timestamp": "2026-03-21T02:04:04.549511"
+  "summary": "The current time is 04:26 UTC. Several cricket matches are scheduled for later today, including the New Zealand vs South Africa T20I and the West Indies Women vs Australia Women T20I. The AFC U20 Asian Cup 2025 has concluded. The Sheffield Shield is an ongoing multi-day match, assumed to be the best fit for a 'LIVE NOW' slot in the absence of confirmed live action.",
+  "timestamp": "2026-03-21T04:26:44.345151"
 }
