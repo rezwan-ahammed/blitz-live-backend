@@ -2,30 +2,30 @@
   "hero_match": {
     "title": "New Zealand vs South Africa - 4th T20I",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1544367586-28550063219a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY1NDY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541427357677-112512622541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHRyZW5kZXJ8ZW58MHx8fHwxNjQ0NzY2NjY2&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "LLC: Southern Super Stars vs Manipal Tigers",
-      "time": "Scheduled (07:30 PM)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1544367586-28550063219a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY1NDY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Sheffield Shield, 2024-25 (Finals Week)",
+      "time": "NO MATCHES TODAY",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1517649761447-f6483b9e2422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGNyaWNrZXR8ZW58MHx8fHwxNjQ0NzY2NjY2&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "Sheffield Shield, 2024-25 Final (Starts March 26)",
-      "time": "Upcoming",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten3_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1544367586-28550063219a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY1NDY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "AFC U20 Asian Cup China, 2025 (Tournament Concluded)",
+      "time": "NO MATCHES TODAY",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGZvb3RiYWxsJTIwZ29hbHxlbnwwfHx8fDE2NDQ3NjY2NjY&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 4th T20I is the primary live event today, scheduled to start at 11:45 AM IST (06:15 UTC). The AFC U20 Asian Cup 2025 has concluded, and the Sheffield Shield Final is scheduled for later this week. Other cricket matches like the LLC are scheduled for later in the day.",
-  "timestamp": "2026-03-22T02:24:00.461578"
+  "summary": "The main live event today is the 4th T20I between New Zealand and South Africa, starting at 11:45 AM IST. The Sheffield Shield 2024-25 season is in its final stages, with the final scheduled for March 26th. The AFC U20 Asian Cup 2025 concluded in March 2025.",
+  "timestamp": "2026-03-22T04:53:02.204322"
 }
