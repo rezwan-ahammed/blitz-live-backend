@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield 2025-26 (Final approaching)",
+    "title": "New Zealand vs South Africa - 4th T20I",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1549771503-23f09027b8f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwc3BvcnRzfGVufDB8fHx8MTY3ODk0NDQ0MHww&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1544367586-28550063219a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY1NDY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "New Zealand Women vs South Africa Women (4th T20I)",
-      "time": "Scheduled/Live",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1549771503-23f09027b8f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwc3BvcnRzfGVufDB8fHx8MTY3ODk0NDQ0MHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "LLC: Southern Super Stars vs Manipal Tigers",
+      "time": "Scheduled (07:30 PM)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1544367586-28550063219a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY1NDY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "New Zealand vs South Africa (4th T20I)",
-      "time": "Scheduled/Live",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1549771503-23f09027b8f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwc3BvcnRzfGVufDB8fHx8MTY3ODk0NDQ0MHww&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Warriors vs Tuskers (CSA One-Day Cup)",
-      "time": "Scheduled/Live",
+      "title": "Sheffield Shield, 2024-25 Final (Starts March 26)",
+      "time": "Upcoming",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten3_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1549771503-23f09027b8f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwc3BvcnRzfGVufDB8fHx8MTY3ODk0NDQ0MHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1544367586-28550063219a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY1NDY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No matches were found specifically for Chandigarh T20 or AFC U20 Asian Cup today, March 21, 2026. The Sheffield Shield 2025-26 final is scheduled for later this week (Mar 25-29). Several international and domestic cricket matches are scheduled for today, which are mapped to available sports channels.",
-  "timestamp": "2026-03-21T21:26:53.763659"
+  "summary": "The New Zealand vs South Africa 4th T20I is the primary live event today, scheduled to start at 11:45 AM IST (06:15 UTC). The AFC U20 Asian Cup 2025 has concluded, and the Sheffield Shield Final is scheduled for later this week. Other cricket matches like the LLC are scheduled for later in the day.",
+  "timestamp": "2026-03-22T02:24:00.461578"
 }
