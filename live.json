@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 4th T20I",
+    "title": "New Zealand vs South Africa - 4th T20",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1548699846-6d6819a85975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjY1NTY2NDY0&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1548699730-030f7111900c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "CSA Provincial One-Day Challenge Division One",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1548699846-6d6819a85975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjY1NTY2NDY0&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "CSK Old vs CSK New (Exhibition Match - Concluded)",
+      "time": "FINISHED",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1548699730-030f7111900c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "Sheffield Shield, 2024-25",
-      "time": "UPCOMING (Finals start Mar 25)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_3/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1548699846-6d6819a85975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjY1NTY2NDY0&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "KCC Season 17 T20 Game",
+      "time": "SCHEDULED/LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1548699730-030f7111900c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "AFC U20 Asian Cup China, 2025",
-      "time": "COMPLETED (Tournament ended Mar 1, 2025)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1548699846-6d6819a85975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjY1NTY2NDY0&ixlib=rb-1.2.1&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The main live event is the New Zealand vs South Africa 4th T20I cricket match, which South Africa won to level the series 2-2. The CSA Provincial One-Day Challenge Division One is also currently live. The Sheffield Shield season is nearing its final stage, with the final scheduled to start on March 25, 2026. The AFC U20 Asian Cup China, 2025 concluded in March 2025.",
-  "timestamp": "2026-03-22T18:38:57.471461"
+  "summary": "The main cricket focus today is the 4th T20 between New Zealand and South Africa. The CSK Roar 2026 exhibition match has concluded, with CSK Old winning. No matches are currently scheduled for the Sheffield Shield 2024-25 or the AFC U20 Asian Cup China, 2025, as those tournaments have concluded.",
+  "timestamp": "2026-03-22T21:28:17.002928"
 }
