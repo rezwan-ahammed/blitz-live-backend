@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 4th T20I (Match Concluded)",
+    "title": "New Zealand vs South Africa - 4th T20 (Result Reported)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541701494587-c212201a714d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNzExNjQ1NjY0&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541835131-1213371e051d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjQ2&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25 Final (Starts March 26)",
-      "time": "Upcoming",
+      "title": "Sheffield Shield Final: Victoria vs. South Australia (Starts March 26)",
+      "time": "Starts Mar 26",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541701494587-c212201a714d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNzExNjQ1NjY0&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "AFC U20 Asian Cup China, 2025 (Tournament in April 2026)",
-      "time": "Upcoming",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekattor_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1520045101763-e4275311794e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGZvb3RiYWxsJTIwd29tZW58ZW58MHx8fHwxNzExNjQ1NjY0&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1541835131-1213371e051d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjQ2&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 4th T20I concluded today with South Africa winning by 19 runs to level the series 2-2. The Sheffield Shield 2024-25 Final between Victoria and South Australia is scheduled to begin on March 26, 2026. No matches were found for Chandigarh T20 or the AFC U20 Asian Cup today.",
-  "timestamp": "2026-03-22T12:54:14.456471"
+  "summary": "The 4th T20 between New Zealand and South Africa concluded today, with South Africa winning by 19 runs to level the series 2-2. There are no scheduled matches for Chandigarh T20 or AFC U20 Asian Cup today. The Sheffield Shield Final is scheduled to begin on March 26.",
+  "timestamp": "2026-03-22T15:28:05.771276"
 }
