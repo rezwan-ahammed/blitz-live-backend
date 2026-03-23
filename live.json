@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa - 4th T20",
+    "title": "Nepal Men's PM Cup: Koshi Province vs Lumbini Province",
     "status": "LIVE NOW",
-    "stream_url": "",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1548699730-030f7111900c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1544367587-c45487035013?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://www.fancode.com/"
+    "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "CSK Old vs CSK New (Exhibition Match - Concluded)",
-      "time": "FINISHED",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1548699730-030f7111900c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sheffield Shield, 2024-25 (Match Concluding)",
+      "time": "LIVE (Concluding)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1544367587-c45487035013?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
-    },
-    {
-      "title": "KCC Season 17 T20 Game",
-      "time": "SCHEDULED/LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1548699730-030f7111900c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The main cricket focus today is the 4th T20 between New Zealand and South Africa. The CSK Roar 2026 exhibition match has concluded, with CSK Old winning. No matches are currently scheduled for the Sheffield Shield 2024-25 or the AFC U20 Asian Cup China, 2025, as those tournaments have concluded.",
-  "timestamp": "2026-03-22T21:28:17.002928"
+  "summary": "The only confirmed live sporting event found for March 23, 2026, is the Nepal Men's PM Cup match between Koshi Province and Lumbini Province (starting 9:15 AM IST). The AFC U20 Asian Cup 2025 has concluded, and the Sheffield Shield status is unclear but may be concluding today. The provided streams are mapped to the most likely general sports channel.",
+  "timestamp": "2026-03-23T02:25:06.407875"
 }
