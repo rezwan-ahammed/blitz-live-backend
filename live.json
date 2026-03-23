@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "CHANDIGARH CRICKET LEAGUE T20: SCREAMING EAGLES vs ALMORA CRICKET",
+    "title": "Chandigarh Cricket League T20 (BAJRANG CLUB RAJA KHERA vs KHIMSAR RAJ CLUB)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-f7284830412d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjB0MjB8ZW58MHx8fHwxNjQ0NTY3ODkw&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1542838132-92c5848ca04a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMzY1NjY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Kent v Surrey: Pre-season match practice (Underway)",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1579451901896-c3e90f19c417?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBwcmVtaWVyc2hpcHxlbnwwfHx8fDE2NDQ1Njc4OTA&ixlib=rb-1.2.1&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Australia Women tour of West Indies - 3rd T20I (Starts 15:30 Local)",
-      "time": "UPCOMING",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1579451901896-c3e90f19c417?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBwcmVtaWVyc2hpcHxlbnwwfHx8fDE2NDQ1Njc4OTA&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "Sheffield Shield, 2024-25: Victoria vs South Australia (Final - Scheduled Mar 26)",
+      "time": "Scheduled",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-92c5848ca04a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMzY1NjY0fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Chandigarh T20 match between SCREAMING EAGLES and ALMORA CRICKET appears to be live. The Sheffield Shield season is in the final stages with the Play-Off Final scheduled for March 25th. The AFC U20 Asian Cup China 2025 concluded in March 2025. A Surrey vs Kent pre-season match is also underway.",
-  "timestamp": "2026-03-23T16:01:08.591976"
+  "summary": "The AFC U20 Asian Cup 2025 has concluded. The Sheffield Shield Final is scheduled for later this week (Mar 26-30). A Chandigarh Cricket League T20 match was listed for today, which is mapped to the general sports stream.",
+  "timestamp": "2026-03-23T18:56:55.840830"
 }
