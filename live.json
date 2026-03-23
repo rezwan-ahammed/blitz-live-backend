@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "Live Sports Coverage (Check SONY Channels)",
+    "title": "Sheffield Shield, 2024-25 (Victoria vs South Australia)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541534741688-6048e075521b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGNyaWNrZXR8ZW58MHx8fHwxNjY1NTY0NTY3&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1549805772-03213374084e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1MjY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25",
-      "time": "No Match Today (Final starts Mar 26)",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541534741688-6048e075521b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGNyaWNrZXR8ZW58MHx8fHwxNjY1NTY0NTY3&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Chandigarh T20 - SCREAMING EAGLES vs ALMORA CRICKET",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1549805772-03213374084e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1MjY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
-    },
-    {
-      "title": "Chandigarh T20",
-      "time": "No Match Found",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541534741688-6048e075521b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGNyaWNrZXR8ZW58MHx8fHwxNjY1NTY0NTY3&ixlib=rb-1.2.1&q=80&w=400",
-      "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No matches found for Chandigarh T20 or Sheffield Shield today, March 23, 2026. The Sheffield Shield final is scheduled to start on March 26. Live cricket action today includes the Nepal Men's PM Cup (Koshi Province vs Lumbini Province) and the 3rd T20I of the Australia Women tour of West Indies. Check SONY SPORTS TEN channels for potential live international cricket coverage.",
-  "timestamp": "2026-03-23T10:05:02.146422"
+  "summary": "No matches were confirmed to be actively live at 13:10 UTC. The Sheffield Shield final is scheduled to start on March 26th. A Chandigarh T20 match was listed for today, but the scheduled time appears to have passed or is not currently live. No matches were found for the AFC U20 Asian Cup.",
+  "timestamp": "2026-03-23T13:10:21.920304"
 }
