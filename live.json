@@ -1,39 +1,39 @@
 {
   "hero_match": {
-    "title": "General Sports Coverage (Check SONY Sports Channels)",
+    "title": "Chandigarh T20 (No specific match found live)",
     "status": "LIVE NOW",
     "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-f7233b72121a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxzcG9ydHN8ZW58MHx8fHwxNzExNzY1NDk0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541534741688-6048e1214113?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBsaXZlfGVufDB8fHx8MTY3ODg0ODQ2Nw&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Legends League Cricket 2026: Match 12/13",
-      "time": "LIVE (Scheduled)",
+      "title": "South Africa Women tour of New Zealand, 5th T20I",
+      "time": "LIVE/ONGOING (Fixture at 18:45 NZDT / 06:45 UTC)",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f7233b72121a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxzcG9ydHN8ZW58MHx8fHwxNzExNzY1NDk0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1541534741688-6048e1214113?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBsaXZlfGVufDB8fHx8MTY3ODg0ODQ2Nw&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Nigeria Invitational Women's T20I Tournament: Match 7",
-      "time": "LIVE (Scheduled)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f7233b72121a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxzcG9ydHN8ZW58MHx8fHwxNzExNzY1NDk0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Nigeria Invitational Women's T20I Tournament - Match 7",
+      "time": "LIVE/ONGOING (Fixture at 02:00 UTC)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541534741688-6048e1214113?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBsaXZlfGVufDB8fHx8MTY3ODg0ODQ2Nw&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Sheffield Shield 2025-26 Final (Starts Mar 26)",
-      "time": "Upcoming",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_3/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f7233b72121a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxzcG9ydHN8ZW58MHx8fHwxNzExNzY1NDk0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Sheffield Shield, 2024-25 (Final starts March 26)",
+      "time": "UPCOMING",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541534741688-6048e1214113?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBsaXZlfGVufDB8fHx8MTY3ODg0ODQ2Nw&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No matches were found for the specific Chandigarh T20 or AFC U20 Asian Cup tournaments today, March 24, 2026. The Sheffield Shield 2024-25 season is over, with the 2025-26 final scheduled to start on March 26th. There are scheduled Legends League Cricket 2026 matches and a Nigeria Invitational Women's T20I match today, which may be covered on the SONY SPORTS TEN channels.",
-  "timestamp": "2026-03-24T07:05:47.633004"
+  "summary": "No matches were found live for the specific 'Chandigarh T20' or 'AFC U20 Asian Cup China, 2025' tournaments. The Sheffield Shield final is scheduled to start on March 26th. There are ongoing or scheduled Women's T20I matches today, including the 5th T20I between South Africa Women and New Zealand Women, which may be live or recently concluded depending on the exact time of the 09:57 UTC check.",
+  "timestamp": "2026-03-24T09:57:08.993125"
 }
