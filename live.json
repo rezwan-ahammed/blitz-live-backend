@@ -1,31 +1,47 @@
 {
   "hero_match": {
-    "title": "Live International Cricket Coverage",
+    "title": "Legends League Cricket 2026 (Match 12 or 13)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541835131-581398210233?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NjAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1542838132-14573196014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNjY0MDAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "NZ-W vs SA-W: 5th T20I (Upcoming on March 25)",
-      "time": "Upcoming (Mar 25)",
+      "title": "Legends League Cricket 2026 (Other Match)",
+      "time": "LIVE",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-581398210233?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NjAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14573196014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNjY0MDAwfDA&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Sheffield Shield 2024-25 Final (Starts March 26)",
-      "time": "Starts Mar 26",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten3_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-581398210233?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NjAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Sheffield Shield, 2024-25 (Placeholder)",
+      "time": "UPCOMING",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14573196014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNjY0MDAwfDA&ixlib=rb-4.0.3&q=80&w=400",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "Chandigarh T20 Match 1 (Placeholder)",
+      "time": "SCHEDULED",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_3/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14573196014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNjY0MDAwfDA&ixlib=rb-4.0.3&q=80&w=400",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "Chandigarh T20 Match 2 (Placeholder)",
+      "time": "SCHEDULED",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1542838132-14573196014b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNjY0MDAwfDA&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No matches found for Chandigarh T20, Sheffield Shield, or AFC U20 Asian Cup on March 24, 2026. However, several international cricket fixtures are scheduled, including the 5th T20I between New Zealand Women and South Africa Women, and the Sheffield Shield Final is set to begin on March 26th.",
-  "timestamp": "2026-03-24T02:10:05.761797"
+  "summary": "No specific matches were found for the 'Chandigarh T20' streams. The AFC U20 Asian Cup 2025 concluded in March 2025, and the Sheffield Shield 2024-25 appears to be between rounds or concluding around March 26th. The most likely live cricket events today are the Legends League Cricket 2026 matches or the Nigeria Invitational Women's T20I matches, which may be covered by the general sports channels.",
+  "timestamp": "2026-03-24T04:54:12.131087"
 }
