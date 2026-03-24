@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "No Live Matches Found for Listed Tournaments",
-    "status": "NO LIVE",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "title": "No Scheduled Match for Listed Tournaments",
+    "status": "LIVE NOW",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-f72311702641?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1542838132-14327434111e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25 (No Live Match)",
-      "time": "Scheduled/No Live Match",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f72311702641?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sheffield Shield, 2024-25 Final (Starts Mar 26)",
+      "time": "Upcoming",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1593305841663-a3081720061e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Chandigarh T20 (No Live Match)",
-      "time": "Scheduled/No Live Match",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f72311702641?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
       "title": "AFC U20 Asian Cup China, 2025 (Tournament Concluded)",
-      "time": "Tournament Concluded",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_3/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542838132-f72311702641?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "time": "Finished",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1546519660-70114252831b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "Searches for live matches on March 24, 2026, indicate that the AFC U20 Asian Cup China, 2025 has concluded, and there are no active matches listed for the Chandigarh T20 or Sheffield Shield today. The Sheffield Shield final is scheduled for tomorrow, March 25th.",
-  "timestamp": "2026-03-24T13:14:29.114858"
+  "summary": "No matches were found for the specific tournaments 'Chandigarh T20', 'Sheffield Shield, 2024-25', or 'AFC U20 Asian Cup China, 2025' scheduled for today, March 24, 2026. The Sheffield Shield final is scheduled to start on March 26, and the AFC U20 Asian Cup concluded in March 2025. Other minor cricket matches are taking place globally.",
+  "timestamp": "2026-03-24T16:07:41.891983"
 }
