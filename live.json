@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 5th T20I",
-    "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "title": "New Zealand vs South Africa - 5th T20I (Series Decider)",
+    "status": "LIVE NOW / RECENTLY CONCLUDED",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1544367587-c409031a432e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNTY3MjAxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541835131-50105120200e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final 2024-25: Victoria vs South Australia",
-      "time": "Scheduled/In Progress",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1587444089953-30157111337b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZmluYWx8ZW58MHx8fHwxNzExNTY3MjAxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Sheffield Shield, 2024-25: Victoria vs South Australia (Final)",
+      "time": "UPCOMING / LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1587444089953-3d1511123190?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Chandigarh T20 Match",
-      "time": "Upcoming/Not Confirmed",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1517649761447-f6483b692460?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHx0MjB8ZW58MHx8fHwxNzExNTY3MjAxfDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 5th T20I is live today, March 25, 2026. The Sheffield Shield Final is also scheduled around this time. No matches are currently active for the AFC U20 Asian Cup China, 2025, as it concluded in 2025.",
-  "timestamp": "2026-03-25T07:03:44.411177"
+  "summary": "The 5th and final T20I between New Zealand and South Africa is the main focus, with South Africa winning the series 3-2 after a close contest. The Sheffield Shield Final between Victoria and South Australia is also scheduled around this time.",
+  "timestamp": "2026-03-25T09:55:12.271668"
 }
