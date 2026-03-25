@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "Legends League Cricket: India Tigers vs Konark Suryas Odisha (Match 10)",
-    "status": "LIVE SOON (Starts ~14:00 UTC)",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "title": "Sheffield Shield, 2024-25 Final (Victoria vs South Australia)",
+    "status": "UPCOMING (Starts March 26)",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146428-a3a701016241?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjY1&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1549805738-11733392009a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBwbGF5fGVufDB8fHx8MTY3OTk1NTQ1Nw&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "ECS Portugal T10: Werewolves CC vs Falcoes (Match 6)",
-      "time": "LIVE NOW (Match 6)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-a3a701016241?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjY1&ixlib=rb-1.2.1&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Sheffield Shield Final: Victoria vs South Australia",
+      "title": "Sheffield Shield, 2024-25 Final (Victoria vs South Australia)",
       "time": "UPCOMING (Starts March 26)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-a3a701016241?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY1NjY1&ixlib=rb-1.2.1&q=80&w=1080",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1549805738-11733392009a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBwbGF5fGVufDB8fHx8MTY3OTk1NTQ1Nw&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 5th T20I concluded earlier today with South Africa winning the series 3-2. The Legends League Cricket match between India Tigers and Konark Suryas Odisha is scheduled to start shortly (around 14:00 UTC). The Sheffield Shield Final is set to begin tomorrow, March 26.",
-  "timestamp": "2026-03-25T13:14:30.999677"
+  "summary": "No matches are currently live for the Chandigarh T20 or AFC U20 Asian Cup China, 2025. The Sheffield Shield Final is scheduled to start on March 26, 2026. Other international cricket matches concluded or are in progress elsewhere.",
+  "timestamp": "2026-03-25T16:11:28.430642"
 }
