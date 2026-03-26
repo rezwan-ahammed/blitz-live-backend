@@ -1,31 +1,39 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield, 2024-25: Victoria vs South Australia",
+    "title": "International Friendly: Brazil vs. France",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541860614-372172314413?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1546519660-7511d11e686a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25: Victoria vs South Australia",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541860614-372172314413?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "NHL: Minnesota Wild vs. Florida Panthers",
+      "time": "LIVE (7 PM ET)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1578985545062-39b803550337?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Sheffield Shield, 2024-25: Victoria vs South Australia",
+      "title": "UEFA World Cup Qualifier: Turkiye vs. Romania",
       "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541860614-372172314413?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1521319904893-d14cc237f11d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "UEFA Nations League: Gibraltar vs. Latvia",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1520333789060-f86eeff42d1f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final between Victoria and South Australia is currently live on Day 1, though play has been affected by rain. The AFC U20 Asian Cup 2025 concluded in March 2025. No matches were found for Chandigarh T20 today.",
-  "timestamp": "2026-03-26T10:02:06.755879"
+  "summary": "Several international football fixtures are scheduled for today, March 26, 2026, including World Cup Qualifiers and Friendlies like Brazil vs. France. An NHL game between the Wild and Panthers is also on the schedule. The SONY SPORTS TEN channels are likely broadcasting the football events.",
+  "timestamp": "2026-03-26T13:18:48.869578"
 }
