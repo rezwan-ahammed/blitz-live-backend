@@ -1,31 +1,31 @@
 {
   "hero_match": {
-    "title": "New Zealand vs South Africa 5th T20I (Match Concluded)",
+    "title": "Lahore Qalandars vs Hyderabad Kingsmen (PSL 2026 Opening Match)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fHRyYW5zcG9ydCUyMGNyaWNrZXR8ZW58MHx8fHwxNjQ0NjY1NjY1&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541253069182-115607e1115e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY0NTY3&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final: Victoria vs South Australia (Starts Tomorrow)",
-      "time": "Starts March 26",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1587444089953-3d00469d101e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fHRyYW5zcG9ydCUyMGNyaWNrZXR8ZW58MHx8fHwxNjQ0NjY1NjY1&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "Sheffield Shield Final: Victoria vs South Australia (Day 1)",
+      "time": "LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541253069182-115607e1115e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY0NTY3&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "Chandigarh T20",
-      "time": "No Live Match Found",
+      "title": "Fighters CC vs Panthers (ECS Portugal Challenger Division)",
+      "time": "LIVE",
       "url": "",
-      "image_url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHRyYW5zcG9ydCUyMGNyaWNrZXR8ZW58MHx8fHwxNjQ0NjY1NjY1&ixlib=rb-1.2.1&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1541253069182-115607e1115e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY0NTY3&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The New Zealand vs South Africa 5th T20I has concluded with South Africa winning the series 3-2. The Sheffield Shield Final between Victoria and South Australia is scheduled to begin tomorrow, March 26, 2026. No live matches were found for the Chandigarh T20 or AFC U20 Asian Cup.",
-  "timestamp": "2026-03-25T21:40:33.852198"
+  "summary": "The Pakistan Super League (PSL) 2026 season kicks off today, March 26, with the opening match between Lahore Qalandars and Hyderabad Kingsmen. The Sheffield Shield Final between Victoria and South Australia also commences today in Melbourne. There are no scheduled matches for the AFC U20 Asian Cup China, 2025, as it concluded in March 2025.",
+  "timestamp": "2026-03-26T02:28:41.231425"
 }
