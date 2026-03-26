@@ -1,23 +1,23 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield, 2024-25 Final: Victoria vs South Australia",
-    "status": "LIVE NOW (Match Commencing)",
+    "title": "Sheffield Shield Final: Victoria v South Australia",
+    "status": "LIVE NOW",
     "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1544367587-175584215111?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDQ1NDY1&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1544367587-c415ab10811a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjB0ZXN0JTIwbWF0Y2h8ZW58MHx8fHwxNjE5NjY0MDAw&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25 Final: Victoria vs South Australia",
-      "time": "LIVE",
+      "title": "PSL 2026: Lahore Qalandars vs Hyderabad Kingsmen",
+      "time": "LIVE SOON (Toss 1:30 PM UTC)",
       "url": "",
-      "image_url": "https://images.unsplash.com/photo-1544367587-175584215111?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDQ1NDY1&ixlib=rb-4.0.3&q=80&w=400",
+      "image_url": "https://images.unsplash.com/photo-1544367587-c415ab10811a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjB0ZXN0JTIwbWF0Y2h8ZW58MHx8fHwxNjE5NjY0MDAw&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final between Victoria and South Australia is commencing today, March 26, 2026. There are no scheduled matches for the Chandigarh T20 or the AFC U20 Asian Cup China, 2025, as that tournament concluded in March 2025.",
-  "timestamp": "2026-03-26T05:07:21.561454"
+  "summary": "The Sheffield Shield Final between Victoria and South Australia is underway today, March 26, 2026. The opening match of the PSL 2026 between Lahore Qalandars and Hyderabad Kingsmen is also scheduled for today, with the toss expected around 1:30 PM UTC.",
+  "timestamp": "2026-03-26T07:10:37.936956"
 }
