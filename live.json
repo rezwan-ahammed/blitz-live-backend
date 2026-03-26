@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "PSL 2026: Lahore Qalandars vs Hyderabad Kingsmen",
+    "title": "Sheffield Shield Final: Victoria vs South Australia (Day 1)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541860614-37277847c921?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1544367587-17267172813e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final: Victoria vs South Australia",
-      "time": "LIVE (Rain Affected)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541860614-37277847c921?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Chandigarh T20",
-      "time": "No Match Today",
+      "title": "PSL 2026: Lahore Qalandars vs Hyderabad Kingsmen",
+      "time": "LIVE",
       "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541860614-37277847c921?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_url": "https://images.unsplash.com/photo-1544367587-17267172813e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The PSL 2026 season kicks off today with the opening match between Lahore Qalandars and Hyderabad Kingsmen. The Sheffield Shield Final between Victoria and South Australia is also underway but has been affected by rain on the first day.",
-  "timestamp": "2026-03-26T16:12:24.757386"
+  "summary": "The Sheffield Shield Final between Victoria and South Australia is underway in Melbourne, with South Australia batting first after Victoria won the toss. The PSL 2026 season has also kicked off with the first match between Lahore Qalandars and Hyderabad Kingsmen.",
+  "timestamp": "2026-03-26T19:07:31.388782"
 }
