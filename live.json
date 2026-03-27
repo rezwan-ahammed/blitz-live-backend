@@ -1,23 +1,31 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield Final: Victoria vs South Australia",
+    "title": "Sheffield Shield, 2024-25: Victoria vs South Australia (Final)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1548999734-03b680204381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ2FtZXxlbnwwfHx8fDE3MTE2NjY2NjY2NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1548699737-034a122d151a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjB0ZXN0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NDY1&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25: Victoria vs South Australia",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1548999734-03b680204381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ2FtZXxlbnwwfHx8fDE3MTE2NjY2NjY2NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Pakistan Super League: Quetta Gladiators vs Karachi Kings",
+      "time": "LIVE (Starts 07:00)",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1548699737-034a122d151a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjB0ZXN0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NDY1&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
+    },
+    {
+      "title": "West Indies Women vs Australia Women (1st ODI)",
+      "time": "LIVE (Starts 11:00)",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1548699737-034a122d151a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjB0ZXN0JTIwbWF0Y2h8ZW58MHx8fHwxNzExNDY1NDY1&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final between Victoria and South Australia is currently live. The AFC U20 Asian Cup China, 2025 concluded in March 2025. No matches were found for Chandigarh T20 today.",
-  "timestamp": "2026-03-27T02:29:49.717552"
+  "summary": "The Sheffield Shield Final between Victoria and South Australia is currently in progress, with South Australia at 89/3 at one point. The Pakistan Super League match between Quetta Gladiators and Karachi Kings is scheduled to start soon (07:00). The AFC U20 Asian Cup China 2025 concluded in March 2025.",
+  "timestamp": "2026-03-27T05:08:17.610134"
 }
