@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "No Confirmed Live Match for Listed Tournaments",
-    "status": "No Live Match Found",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "title": "Sheffield Shield Final (Day 3)",
+    "status": "LIVE NOW",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1546483863-f27123303551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwc3BvcnRzfGVufDB8fHx8MTY3ODg0MjQ0MHww&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1548898151-217791937142?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Chandigarh T20 (No Match Found)",
-      "time": "Finished/Not Scheduled",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1546483863-f27123303551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwc3BvcnRzfGVufDB8fHx8MTY3ODg0MjQ0MHww&ixlib=rb-4.0.3&q=80&w=400",
+      "title": "PSL 2026: Quetta Gladiators vs Karachi Kings",
+      "time": "LIVE/RECENT",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1579451901898-d1557212115c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Sheffield Shield, 2024-25",
-      "time": "Finished (Concluded around March 26, 2026)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1546483863-f27123303551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwc3BvcnRzfGVufDB8fHx8MTY3ODg0MjQ0MHww&ixlib=rb-4.0.3&q=80&w=400",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "AFC U20 Asian Cup China, 2025",
-      "time": "Finished (Concluded March 1, 2025)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1546483863-f27123303551?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwc3BvcnRzfGVufDB8fHx8MTY3ODg0MjQ0MHww&ixlib=rb-4.0.3&q=80&w=400",
+      "title": "Chandigarh T20 (No current match found)",
+      "time": "Scheduled",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "No live matches were found for the specific tournaments listed (Chandigarh T20, Sheffield Shield, AFC U20 Asian Cup) as of 15:54 UTC on March 27, 2026. The AFC U20 Asian Cup 2025 concluded in March 2025, and the Sheffield Shield 2024-25 appears to have concluded around March 26, 2026. A PSL match was scheduled for later today.",
-  "timestamp": "2026-03-27T15:54:43.014915"
+  "summary": "The Sheffield Shield Final (2025-26) is currently in progress on Day 3, as it runs until March 29th. The PSL 2026 match between Quetta Gladiators and Karachi Kings also took place today, starting at 2:00 PM UTC. No matches were found for the Chandigarh T20 or AFC U20 Asian Cup China, 2025.",
+  "timestamp": "2026-03-27T18:57:44.459523"
 }
