@@ -1,31 +1,175 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield Final (Day 3)",
+    "title": "Sheffield Shield 2025-26 Final: Victoria vs South Australia",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1548898151-217791937142?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "PSL 2026: Quetta Gladiators vs Karachi Kings",
-      "time": "LIVE/RECENT",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1579451901898-d1557212115c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Chandigarh T20: SHANI SHIGNAPUR SPORTS vs KHIMSAR RAJ CLUB",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Chandigarh T20 (No current match found)",
-      "time": "Scheduled",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/zee_bangla/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/star_jalsha/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/jalsha_movies/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_six_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_aath/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/colors_b/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten3_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_3/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_six/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_sd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekattor_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/independent/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "No Live Match Found",
+      "time": "N/A",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/channel_24/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-04f300904273?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final (2025-26) is currently in progress on Day 3, as it runs until March 29th. The PSL 2026 match between Quetta Gladiators and Karachi Kings also took place today, starting at 2:00 PM UTC. No matches were found for the Chandigarh T20 or AFC U20 Asian Cup China, 2025.",
-  "timestamp": "2026-03-27T18:57:44.459523"
+  "summary": "The Sheffield Shield 2025-26 Final between Victoria and South Australia is currently in progress on March 27, 2026. A Chandigarh T20 match is also listed as live. The AFC U20 Asian Cup China 2025 concluded in March 2025.",
+  "timestamp": "2026-03-27T21:35:56.335953"
 }
