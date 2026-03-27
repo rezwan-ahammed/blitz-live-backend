@@ -1,23 +1,23 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield, 2024-25: Victoria vs South Australia",
+    "title": "Sheffield Shield Final: Victoria vs South Australia",
     "status": "LIVE NOW",
-    "stream_url": "",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1542838132-10091588701a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZGVudHxlbnwwfHx8fDE3MTE1NjY1NDd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1548999734-03b680204381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ2FtZXxlbnwwfHx8fDE3MTE2NjY2NjY2NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://www.fancode.com/"
+    "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "PSL 2026: Lahore Qalandars vs Hyderabad Kingsmen (Match Concluded)",
-      "time": "FINISHED",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1542838132-10091588701a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZGVudHxlbnwwfHx8fDE3MTE1NjY1NDd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Sheffield Shield, 2024-25: Victoria vs South Australia",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-03b680204381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ2FtZXxlbnwwfHx8fDE3MTE2NjY2NjY2NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final between Victoria and South Australia is currently live, though Day 1 was heavily affected by rain. The PSL 2026 match between Lahore Qalandars and Hyderabad Kingsmen has concluded with Lahore Qalandars winning by 69 runs. There are no matches for Chandigarh T20 or the AFC U20 Asian Cup today.",
-  "timestamp": "2026-03-26T21:32:51.214625"
+  "summary": "The Sheffield Shield Final between Victoria and South Australia is currently live. The AFC U20 Asian Cup China, 2025 concluded in March 2025. No matches were found for Chandigarh T20 today.",
+  "timestamp": "2026-03-27T02:29:49.717552"
 }
