@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
+    "title": "Sheffield Shield, 2024-25: Victoria vs South Australia (Final - Day 4)",
     "status": "LIVE NOW",
     "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541701494587-c71e34b0432d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdDIwJTIwbWF0Y2h8ZW58MHx8fHwxNzExNjQ1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1548699736-201f69de1b4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE3MTE1NjY0NjB8MA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final: Victoria vs South Australia (Day 4)",
+      "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
       "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1587444089953-3d1a7c7d8b9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZmluYWx8ZW58MHx8fHwxNzExNjQ1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548699736-201f69de1b4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE3MTE1NjY0NjB8MA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Australia U20 vs China U20 (Friendship Series)",
+      "title": "Australia U20 vs China U20 Friendly (AFC U20 Asian Cup Prep)",
       "time": "LIVE",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1520333789060-f86cf1170c81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmtyMTglMjBmb290YmFsbHxlbnwwfHx8fDE3MTE2NDU2NjZ8MA&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "PSL 2026: Peshawar Zalmi vs Rawalpindi Pindiz",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541701494587-c71e34b0432d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdDIwJTIwbWF0Y2h8ZW58MHx8fHwxNzExNjQ1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1520333789060-f85b1a523a11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfDF8c2VhcmNofDF8fGZvb3RiYWxsJTIwd29ybGR8ZW58MHx8fHwxNzExNTY2NDYwfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The major sporting events today, March 28, 2026, include the opening match of the IPL 2026 (RCB vs SRH), the ongoing Sheffield Shield Final (Victoria vs South Australia), and a Pakistan Super League fixture (PZ vs RWP). Additionally, the Australia U20 team is playing China U20 in a friendly match.",
-  "timestamp": "2026-03-28T12:57:37.469854"
+  "summary": "The Sheffield Shield Final between Victoria and South Australia is currently live on Day 4. The IPL 2026 opener between RCB and SRH is also live. There are no scheduled matches for the AFC U20 Asian Cup China, 2025, as it concluded in 2025; however, the Australia U20 team is playing a friendly match against China U20 today.",
+  "timestamp": "2026-03-28T15:32:39.126301"
 }
