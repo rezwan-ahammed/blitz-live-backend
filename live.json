@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield Final: Victoria vs South Australia",
-    "status": "LIVE NOW (Likely in Play/Resuming)",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad (Match 1)",
+    "status": "LIVE NOW",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjY1&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541835131-276011894256?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Pakistan Super League: Peshawar Zalmi vs Rawalpindi Pindiz (Starts 02:30 UTC)",
-      "time": "LIVE (Starting Soon)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjY1&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Sheffield Shield Final: Victoria vs South Australia (Day 3 of 4)",
+      "time": "LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541835131-276011894256?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "Indian Premier League: RCB vs SRH (Starts 07:00 UTC)",
-      "time": "Upcoming",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjY1&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Australia U20 vs China U20 (Friendship Series)",
+      "time": "LIVE",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541835131-276011894256?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Australia U20 vs China U20 Friendly Match",
-      "time": "Upcoming",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjE5NjY3MjY1&ixlib=rb-1.2.1&q=80&w=400",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final between Victoria and South Australia is likely in progress. The Pakistan Super League match between Peshawar Zalmi and Rawalpindi Pindiz is scheduled to start shortly at 02:30 UTC. The Indian Premier League season kicks off later today at 07:00 UTC with Royal Challengers Bengaluru taking on Sunrisers Hyderabad.",
-  "timestamp": "2026-03-28T02:12:51.192281"
+  "summary": "The Indian Premier League (IPL) 2026 season kicks off today, March 28, 2026, with the opening match between defending champions Royal Challengers Bengaluru and Sunrisers Hyderabad. The Sheffield Shield Final between Victoria and South Australia is also currently in progress, scheduled to conclude on March 29. The AFC U20 Asian Cup 2025 has concluded; however, the Australia U20 team is playing China U20 in a friendly match today.",
+  "timestamp": "2026-03-28T04:53:47.871692"
 }
