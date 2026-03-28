@@ -1,31 +1,39 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield, 2024-25: Victoria vs South Australia (Final)",
-    "status": "LIVE NOW (Likely in progress)",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+    "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
+    "status": "LIVE NOW",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1544367587-35915743732c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNyaWNrZXQlMjBmaXJzdC1jbGFzcy1jYXRjaGluZ3xlbnwwfHx8fDE2Nzg0NDQ0MDQ&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541701494587-c71e34b0432d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdDIwJTIwbWF0Y2h8ZW58MHx8fHwxNzExNjQ1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
-      "time": "Scheduled for 7:30 PM IST",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1594321617448-333837617043?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGlwbCUyMGNyaWNrZXR8ZW58MHx8fHwxNjc4NDQ0NDQ0&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "Sheffield Shield Final: Victoria vs South Australia (Day 4)",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1587444089953-3d1a7c7d8b9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZmluYWx8ZW58MHx8fHwxNzExNjQ1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
       "title": "Australia U20 vs China U20 (Friendship Series)",
-      "time": "LIVE NOW (Match on March 28)",
+      "time": "LIVE",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGZvb3RiYWxsJTIwd29ybGR8ZW58MHx8fHwxNjc4NDQ0NDg0&ixlib=rb-1.2.1&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1520333789060-f86cf1170c81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHx1bmRlcmtyMTglMjBmb290YmFsbHxlbnwwfHx8fDE3MTE2NDU2NjZ8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "PSL 2026: Peshawar Zalmi vs Rawalpindi Pindiz",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541701494587-c71e34b0432d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NTJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdDIwJTIwbWF0Y2h8ZW58MHx8fHwxNzExNjQ1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final between Victoria and South Australia is likely in progress. The highly anticipated IPL 2026 season kicks off today with RCB vs SRH scheduled for 7:30 PM IST. There is also an Australia U20 vs China U20 football match today.",
-  "timestamp": "2026-03-28T09:39:13.562542"
+  "summary": "The major sporting events today, March 28, 2026, include the opening match of the IPL 2026 (RCB vs SRH), the ongoing Sheffield Shield Final (Victoria vs South Australia), and a Pakistan Super League fixture (PZ vs RWP). Additionally, the Australia U20 team is playing China U20 in a friendly match.",
+  "timestamp": "2026-03-28T12:57:37.469854"
 }
