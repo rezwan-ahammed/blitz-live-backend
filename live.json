@@ -1,31 +1,39 @@
 {
   "hero_match": {
-    "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad (Match 1)",
+    "title": "Royal Challengers Bengaluru vs Sunrisers Hyderabad (IPL 2026 Opening Match)",
     "status": "LIVE NOW",
     "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541835131-276011894256?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1544367587-170325e2831d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjZ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final: Victoria vs South Australia (Day 3 of 4)",
+      "title": "Sheffield Shield Final: Victoria vs South Australia",
       "time": "LIVE",
       "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541835131-276011894256?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_url": "https://images.unsplash.com/photo-1544367587-170325e2831d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjZ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://www.fancode.com/"
     },
     {
-      "title": "Australia U20 vs China U20 (Friendship Series)",
-      "time": "LIVE",
+      "title": "Chandigarh T20 Match (Time: 07:00 UTC)",
+      "time": "LIVE NOW",
       "url": "",
-      "image_url": "https://images.unsplash.com/photo-1541835131-276011894256?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_url": "https://images.unsplash.com/photo-1544367587-170325e2831d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjZ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://www.fancode.com/"
+    },
+    {
+      "title": "Chandigarh T20 Match (Time: 02:20 UTC)",
+      "time": "LIVE NOW",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1544367587-170325e2831d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjZ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The Indian Premier League (IPL) 2026 season kicks off today, March 28, 2026, with the opening match between defending champions Royal Challengers Bengaluru and Sunrisers Hyderabad. The Sheffield Shield Final between Victoria and South Australia is also currently in progress, scheduled to conclude on March 29. The AFC U20 Asian Cup 2025 has concluded; however, the Australia U20 team is playing China U20 in a friendly match today.",
-  "timestamp": "2026-03-28T04:53:47.871692"
+  "summary": "The Indian Premier League (IPL) 2026 season kicks off today, March 28, 2026, with the opening match between Royal Challengers Bengaluru and Sunrisers Hyderabad (scheduled for 07:00 UTC/10:30 AM IST, though the search result suggests 07:00 UTC is a possible start time for a Chandigarh T20, the IPL opener is the most prominent match). The Sheffield Shield Final between Victoria and South Australia is also ongoing. There are no AFC U20 Asian Cup China 2025 matches today as that tournament concluded on March 1, 2025. There are also mentions of Chandigarh T20 matches scheduled around this time.",
+  "timestamp": "2026-03-28T07:00:23.447252"
 }
