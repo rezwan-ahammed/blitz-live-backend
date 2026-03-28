@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "Royal Challengers Bengaluru vs Sunrisers Hyderabad (IPL 2026 Opening Match)",
-    "status": "LIVE NOW",
-    "stream_url": "",
+    "title": "Sheffield Shield, 2024-25: Victoria vs South Australia (Final)",
+    "status": "LIVE NOW (Likely in progress)",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1544367587-170325e2831d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjZ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1544367587-35915743732c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNyaWNrZXQlMjBmaXJzdC1jbGFzcy1jYXRjaGluZ3xlbnwwfHx8fDE2Nzg0NDQ0MDQ&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://www.fancode.com/"
+    "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final: Victoria vs South Australia",
-      "time": "LIVE",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1544367587-170325e2831d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjZ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
+      "time": "Scheduled for 7:30 PM IST",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1594321617448-333837617043?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGlwbCUyMGNyaWNrZXR8ZW58MHx8fHwxNjc4NDQ0NDQ0&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     },
     {
-      "title": "Chandigarh T20 Match (Time: 07:00 UTC)",
-      "time": "LIVE NOW",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1544367587-170325e2831d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjZ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "Australia U20 vs China U20 (Friendship Series)",
+      "time": "LIVE NOW (Match on March 28)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGZvb3RiYWxsJTIwd29ybGR8ZW58MHx8fHwxNjc4NDQ0NDg0&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
-      "referer": "https://www.fancode.com/"
-    },
-    {
-      "title": "Chandigarh T20 Match (Time: 02:20 UTC)",
-      "time": "LIVE NOW",
-      "url": "",
-      "image_url": "https://images.unsplash.com/photo-1544367587-170325e2831d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjZ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY1NjY2fDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://www.fancode.com/"
+      "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Indian Premier League (IPL) 2026 season kicks off today, March 28, 2026, with the opening match between Royal Challengers Bengaluru and Sunrisers Hyderabad (scheduled for 07:00 UTC/10:30 AM IST, though the search result suggests 07:00 UTC is a possible start time for a Chandigarh T20, the IPL opener is the most prominent match). The Sheffield Shield Final between Victoria and South Australia is also ongoing. There are no AFC U20 Asian Cup China 2025 matches today as that tournament concluded on March 1, 2025. There are also mentions of Chandigarh T20 matches scheduled around this time.",
-  "timestamp": "2026-03-28T07:00:23.447252"
+  "summary": "The Sheffield Shield Final between Victoria and South Australia is likely in progress. The highly anticipated IPL 2026 season kicks off today with RCB vs SRH scheduled for 7:30 PM IST. There is also an Australia U20 vs China U20 football match today.",
+  "timestamp": "2026-03-28T09:39:13.562542"
 }
