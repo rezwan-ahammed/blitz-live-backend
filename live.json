@@ -1,31 +1,31 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield, 2024-25: Victoria vs South Australia (Final - Day 4)",
+    "title": "New Zealand Women v South Africa Women - 1st ODI",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1548699736-201f69de1b4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE3MTE1NjY0NjB8MA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1544367571-c5509f16b99b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
+      "title": "Sheffield Shield Final: Victoria vs South Australia (Day 4)",
       "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1548699736-201f69de1b4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE3MTE1NjY0NjB8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1587444089953-3d011c111010?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "Australia U20 vs China U20 Friendly (AFC U20 Asian Cup Prep)",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1520333789060-f85b1a523a11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfDF8c2VhcmNofDF8fGZvb3RiYWxsJTIwd29ybGR8ZW58MHx8fHwxNzExNTY2NDYwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad (Result/Finished)",
+      "time": "FINISHED",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1548699737-033bc77d637e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final between Victoria and South Australia is currently live on Day 4. The IPL 2026 opener between RCB and SRH is also live. There are no scheduled matches for the AFC U20 Asian Cup China, 2025, as it concluded in 2025; however, the Australia U20 team is playing a friendly match against China U20 today.",
-  "timestamp": "2026-03-28T15:32:39.126301"
+  "summary": "The New Zealand Women vs South Africa Women 1st ODI is currently LIVE (started at 18:00 UTC). The Sheffield Shield Final between Victoria and South Australia is also in progress on its final day. No matches were found for Chandigarh T20 or AFC U20 Asian Cup China, 2025 today.",
+  "timestamp": "2026-03-28T18:42:10.861437"
 }
