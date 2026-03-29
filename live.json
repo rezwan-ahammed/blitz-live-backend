@@ -1,31 +1,31 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield 2024-25 Final: South Australia Men vs Victoria Men",
-    "status": "LIVE NOW (Day 4)",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "title": "IPL 2026: Mumbai Indians vs Kolkata Knight Riders",
+    "status": "SCHEDULED (Starts 14:05 UTC)",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1544367587-177943755317?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1541834146428-a3a7b64e4719?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBwbGF5ZXJ8ZW58MHx8fHwxNjQ3NjY3MjAw&ixlib=rb-1.2.1.rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "IPL 2026: Mumbai Indians vs Kolkata Knight Riders (Upcoming - 7:30 PM IST)",
-      "time": "Upcoming",
+      "title": "Sheffield Shield Final: Victoria vs South Australia (Day 4 - Play in Progress)",
+      "time": "LIVE",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1544367587-177943755317?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_url": "https://images.unsplash.com/photo-1587444089953-3d0520255b8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGNyaWNrZXQlMjB0ZXN0JTIwbWF0Y2h8ZW58MHx8fHwxNjQ3NjY3MjAw&ixlib=rb-1.2.1.rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "West Indies Women vs Australia Women - 2nd ODI (Upcoming - 11:00 UTC)",
-      "time": "Upcoming",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1544367587-177943755317?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "West Indies Women vs Australia Women - 2nd ODI (Starts ~15:00 UTC)",
+      "time": "UPCOMING",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1579451901896-c3e90f19d1e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHdvbWVuJTIwc29jY2VyJTIwbWF0Y2h8ZW58MHx8fHwxNjQ3NjY3MjAw&ixlib=rb-1.2.1.rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Sheffield Shield 2024-25 Final between South Australia Men and Victoria Men is currently live on Day 4. The major IPL 2026 match between MI and KKR is scheduled for later today (7:30 PM IST). The AFC U20 Asian Cup China, 2025 has concluded.",
-  "timestamp": "2026-03-29T05:11:36.067615"
+  "summary": "The main cricket focus today is the IPL 2026 match between Mumbai Indians and Kolkata Knight Riders, starting at 14:05 UTC. The Sheffield Shield Final between Victoria and South Australia is currently live on Day 4, with Victoria in a strong position. The West Indies Women vs Australia Women ODI is also scheduled for later today.",
+  "timestamp": "2026-03-29T07:05:38.022847"
 }
