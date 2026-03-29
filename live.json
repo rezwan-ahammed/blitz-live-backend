@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "IPL 2026: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
+    "title": "Sheffield Shield, 2024-25 Final (Victoria vs South Australia)",
     "status": "LIVE NOW",
     "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1548699738-03c737a8f757?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1548999734-03b6802c522e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZmluYWx8ZW58MHx8fHwxNzExMjM0NTY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25 Final: Victoria vs South Australia",
-      "time": "LIVE (Day 3/4)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1517649761447-f6483b692460?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Chandigarh T20: Rajiv Sharma Playing Academy vs TANAJI CRICKETERS (Likely)",
-      "time": "Scheduled/Live",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_2/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1542779198-3a6311c95a3a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sheffield Shield, 2024-25 Final (Day 4)",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1548999734-03b6802c522e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZmluYWx8ZW58MHx8fHwxNzExMjM0NTY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The IPL 2026 season has kicked off with RCB vs SRH, which appears to be live or recently concluded with RCB winning. The Sheffield Shield Final between Victoria and South Australia is also in progress on Day 3/4. No matches are currently scheduled for the AFC U20 Asian Cup China, 2025, as it concluded in March 2025.",
-  "timestamp": "2026-03-28T21:31:12.173360"
+  "summary": "The Sheffield Shield 2024-25 Final is in progress, concluding today, March 29, 2026. No matches are scheduled for the Chandigarh T20 or the AFC U20 Asian Cup China, 2025, as those tournaments are concluded or in a different season.",
+  "timestamp": "2026-03-29T02:33:02.499719"
 }
