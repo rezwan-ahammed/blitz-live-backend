@@ -1,31 +1,23 @@
 {
   "hero_match": {
-    "title": "IPL 2026: Mumbai Indians vs Kolkata Knight Riders (LIVE)",
-    "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "title": "Sheffield Shield, 2024-25 Final: Victoria vs South Australia",
+    "status": "JUST CONCLUDED/FINAL DAY",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE0NTY3MjQ1&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1544367587-1709128a112c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZmluYWwlMjBmaWVsZHxlbnwwfHx8fDE3MTE3NjY2NjJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25: Final - Day 4 (In Progress)",
-      "time": "LIVE",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE0NTY3MjQ1&ixlib=rb-1.2.1&q=80&w=1080",
+      "title": "Sheffield Shield, 2024-25 Final: Victoria vs South Australia",
+      "time": "LIVE NOW",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1544367587-1709128a112c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZmluYWwlMjBmaWVsZHxlbnwwfHx8fDE3MTE3NjY2NjJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "Chandigarh T20: League Match (Scheduled)",
-      "time": "Upcoming/Live",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541834146428-d3a14940f201?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXR8ZW58MHx8fHwxNjE0NTY3MjQ1&ixlib=rb-1.2.1&q=80&w=1080",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The major sporting event today is the IPL 2026 match between Mumbai Indians and Kolkata Knight Riders, which is currently live. The Sheffield Shield 2024-25 Final is also concluding today. There are no scheduled matches for the AFC U20 Asian Cup China, 2025, as it concluded in March 2025.",
-  "timestamp": "2026-03-29T15:33:48.548512"
+  "summary": "The Sheffield Shield 2024-25 Final between Victoria and South Australia concluded today, March 29, 2026, with South Australia striking late on day four to leave the title clash on a knife's edge. No current live matches were found for Chandigarh T20 or AFC U20 Asian Cup.",
+  "timestamp": "2026-03-29T18:43:52.984219"
 }
