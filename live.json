@@ -1,39 +1,31 @@
 {
   "hero_match": {
-    "title": "Rajasthan Royals vs Chennai Super Kings (IPL 2026)",
+    "title": "IPL 2026: Rajasthan Royals vs Chennai Super Kings",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1544367586-283061815342?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1544720186-07210103293d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBwbGF5ZXJzfGVufDB8fHx8MTY3OTc2OTYwMA&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Rajasthan Royals vs Chennai Super Kings (IPL 2026) - Starts 14:00 UTC",
-      "time": "Starting Soon",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1544367586-283061815342?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Sheffield Shield, 2024-25 Final: Victoria vs South Australia",
+      "time": "FINISHED",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1544720186-07210103293d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBwbGF5ZXJzfGVufDB8fHx8MTY3OTc2OTYwMA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "Sheffield Shield, 2024-25 (Final likely concluded)",
-      "time": "COMPLETED",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_3/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1518549544185-15313012703a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "AFC U20 Asian Cup China, 2025",
+      "time": "FINISHED (Ended March 1, 2025)",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1544720186-07210103293d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBwbGF5ZXJzfGVufDB8fHx8MTY3OTc2OTYwMA&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
-    },
-    {
-      "title": "AFC U20 Asian Cup China, 2025 (Tournament concluded in March 2025)",
-      "time": "ENDED",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/euro_sports_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1520043572510-318c55129353?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The main sporting event today is the IPL 2026 match between Rajasthan Royals and Chennai Super Kings, scheduled to start at 14:00 UTC. The Sheffield Shield 2024-25 final appears to have concluded around March 30th, and the AFC U20 Asian Cup 2025 finished in March 2025. No live matches were found for the Chandigarh T20 or the AFC U20 Asian Cup for today's date.",
-  "timestamp": "2026-03-30T13:22:40.177527"
+  "summary": "The main live event is the IPL 2026 match between Rajasthan Royals and Chennai Super Kings, which is currently in progress or has just finished based on search results. The Sheffield Shield Final has concluded with South Australia winning. The AFC U20 Asian Cup China, 2025, also concluded earlier in March 2025.",
+  "timestamp": "2026-03-30T16:06:13.362357"
 }
