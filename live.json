@@ -1,31 +1,31 @@
 {
   "hero_match": {
-    "title": "Sheffield Shield, 2024-25 Final: Victoria vs South Australia",
+    "title": "IPL 2026: Rajasthan Royals vs Chennai Super Kings",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
+    "stream_url": "",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1544367587-17775358877e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2Nzg4ODk2MDA&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1541834146486-1f688111331e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
-    "referer": "https://toffeelive.com/"
+    "referer": "https://www.fancode.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield, 2024-25 Final: Victoria vs South Australia",
-      "time": "LIVE (Final Day)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1544367587-17775358877e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2Nzg4ODk2MDA&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "IPL 2026: Rajasthan Royals vs Chennai Super Kings (Scheduled 2:05 PM UTC)",
+      "time": "UPCOMING",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541834146486-1f688111331e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     },
     {
-      "title": "IPL 2026: Mumbai Indians vs Kolkata Knight Riders",
-      "time": "ENDED (Match finished around 23:30 UTC)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1517649761447-f6483b692460?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGlwbCUyMGNyaWNrZXR8ZW58MHx8fHwxNjc4ODg5NjAw&ixlib=rb-1.2.1&q=80&w=400",
+      "title": "Sheffield Shield, 2024-25 Final (Completed: SA won)",
+      "time": "COMPLETED",
+      "url": "",
+      "image_url": "https://images.unsplash.com/photo-1541834146486-1f688111331e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
-      "referer": "https://toffeelive.com/"
+      "referer": "https://www.fancode.com/"
     }
   ],
-  "summary": "The Sheffield Shield 2024-25 Final between Victoria and South Australia is concluding today, March 29, 2026, with Victoria needing 94 runs to win. The IPL 2026 Match 2 between Mumbai Indians and Kolkata Knight Riders has concluded, with MI winning.",
-  "timestamp": "2026-03-29T21:33:39.855443"
+  "summary": "The Sheffield Shield Final concluded today with South Australia defeating Victoria. The major live event today is the IPL 2026 match between Rajasthan Royals and Chennai Super Kings, scheduled for later in the day (7:30 PM IST / 2:05 PM UTC). No matches are currently live at 02:35 UTC.",
+  "timestamp": "2026-03-30T02:35:51.092567"
 }
