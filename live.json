@@ -1,31 +1,39 @@
 {
   "hero_match": {
-    "title": "IPL 2026: Rajasthan Royals vs Chennai Super Kings (Scheduled for later today)",
+    "title": "Punjab CC vs Malo (ECS Portugal Premier)",
     "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541835131-78271313080e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY0ODQ0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1546549175-b0430427182e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8MHx8fGVufDB8fHx8MTcxMTg1OTY1MHww&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final: South Australia vs Victoria (Match Concluded)",
-      "time": "FINISHED",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sports_highlights/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1579451901891-a39470301211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJvcGh5fGVufDB8fHx8MTcxMTY0ODQ0NHww&ixlib=rb-4.0.3&q=80&w=400",
+      "title": "IPL 2026: Rajasthan Royals vs Chennai Super Kings",
+      "time": "Scheduled for later today (IST)",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1546549175-b0430427182e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8MHx8fGVufDB8fHx8MTcxMTg1OTY1MHww&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "IPL 2026: MI vs KKR (Match likely concluded or scheduled for later)",
-      "time": "UPCOMING/RECENT",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541835131-78271313080e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY0NjJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8ZW58MHx8fHwxNzExMTY0ODQ0fDA&ixlib=rb-4.0.3&q=80&w=400",
+      "title": "Sheffield Shield, 2024-25 (Final concluded)",
+      "time": "Completed",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ten_1/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1546549175-b0430427182e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8MHx8fGVufDB8fHx8MTcxMTg1OTY1MHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "AFC U20 Asian Cup China, 2025 (Tournament concluded)",
+      "time": "Completed",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1546549175-b0430427182e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTY3MDJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbWF0Y2h8MHx8fGVufDB8fHx8MTcxMTg1OTY1MHww&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final concluded today with South Australia defeating Victoria. The main cricket focus shifts to the IPL 2026, with the Rajasthan Royals vs Chennai Super Kings match scheduled for later in the day (7:30 PM IST). No other major live events were found for the listed streams at this time.",
-  "timestamp": "2026-03-30T07:44:13.738968"
+  "summary": "The only event explicitly marked as 'Live' for today, March 30, 2026, is the ECS Portugal Premier match between Punjab CC and Malo. The IPL 2026 match between RR and CSK is scheduled for later today (IST). The Sheffield Shield 2024-25 final has concluded, and the AFC U20 Asian Cup 2025 finished in March 2025.",
+  "timestamp": "2026-03-30T10:18:20.231342"
 }
