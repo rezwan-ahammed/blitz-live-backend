@@ -1,31 +1,31 @@
 {
   "hero_match": {
-    "title": "Punjab Kings vs Gujarat Titans (IPL 2026) - Scheduled 14:00 UTC",
+    "title": "New Zealand Women vs South Africa Women (2nd ODI)",
     "status": "LIVE NOW",
     "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541779288747-854291181557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBtYXRjaHxlbnwwfHx8fDE2Nzg5MDI0Mjg&ixlib=rb-4.0.3&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1544367587-c422e191a7a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjQ0NjY4ODAw&ixlib=rb-1.2.1&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Islamabad United vs Peshawar Zalmi (PSL 2026) - Scheduled 14:00 UTC",
-      "time": "LIVE",
+      "title": "Punjab Kings vs Gujarat Titans (IPL 2026 - Match 4) - Starts 14:06 UTC",
+      "time": "UPCOMING (14:06 UTC)",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541779288747-854291181557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBtYXRjaHxlbnwwfHx8fDE2Nzg5MDI0Mjg&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1579451901896-c3e01733522b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGNyaWNrZXR8ZW58MHx8fHwxNjQ0NjY4ODAw&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     },
     {
-      "title": "New Zealand W vs South Africa W (Women's ODI 2nd ODI) - Scheduled 15:00 UTC",
-      "time": "LIVE",
+      "title": "Islamabad United vs Peshawar Zalmi (PSL 2026 - Match 7)",
+      "time": "TODAY",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten3_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1541779288747-854291181557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBtYXRjaHxlbnwwfHx8fDE2Nzg5MDI0Mjg&ixlib=rb-4.0.3&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1544367587-c422e191a7a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXR8ZW58MHx8fHwxNjQ0NjY4ODAw&ixlib=rb-1.2.1&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The major cricket events scheduled for today, March 31, 2026, are the IPL (PBKS vs GT) and PSL (ISU vs PESZ) matches, both scheduled to start around 14:00 UTC. The Sheffield Shield final concluded yesterday, and the AFC U20 Asian Cup concluded in March 2025. No matches are confirmed to be live at 07:16 UTC, but the SONY SPORTS channels are likely for the scheduled cricket.",
-  "timestamp": "2026-03-31T07:16:58.184141"
+  "summary": "The New Zealand Women vs South Africa Women ODI is currently live. The major cricket event for today is the IPL 2026 match between Punjab Kings and Gujarat Titans, scheduled to start at 14:06 UTC. The AFC U20 Asian Cup 2025 and Sheffield Shield 2024-25 have concluded.",
+  "timestamp": "2026-03-31T10:06:15.535331"
 }
