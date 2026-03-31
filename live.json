@@ -1,23 +1,31 @@
 {
   "hero_match": {
-    "title": "India vs Hong Kong, China (AFC Asian Cup 2027 Qualifiers Final Round)",
-    "status": "NOT STARTED (13:30 UTC)",
+    "title": "Punjab Kings vs Gujarat Titans (IPL 2026) - Scheduled 14:00 UTC",
+    "status": "LIVE NOW",
     "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1546549162-8722a345313c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image_url": "https://images.unsplash.com/photo-1541779288747-854291181557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBtYXRjaHxlbnwwfHx8fDE2Nzg5MDI0Mjg&ixlib=rb-4.0.3&q=80&w=1080",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Punjab Kings vs Gujarat Titans (IPL 2026 Match 4)",
-      "time": "NOT STARTED (07:00 UTC)",
-      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1546549162-8722a345313c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Islamabad United vs Peshawar Zalmi (PSL 2026) - Scheduled 14:00 UTC",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541779288747-854291181557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBtYXRjaHxlbnwwfHx8fDE2Nzg5MDI0Mjg&ixlib=rb-4.0.3&q=80&w=1080",
+      "cookie": "",
+      "referer": "https://toffeelive.com/"
+    },
+    {
+      "title": "New Zealand W vs South Africa W (Women's ODI 2nd ODI) - Scheduled 15:00 UTC",
+      "time": "LIVE",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten3_hd/playlist.m3u8",
+      "image_url": "https://images.unsplash.com/photo-1541779288747-854291181557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBtYXRjaHxlbnwwfHx8fDE2Nzg5MDI0Mjg&ixlib=rb-4.0.3&q=80&w=1080",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The Sheffield Shield Final concluded yesterday. The main sporting event today is the India vs Hong Kong AFC Asian Cup Qualifier scheduled for 13:30 UTC. No matches are currently LIVE.",
-  "timestamp": "2026-03-31T02:30:37.314876"
+  "summary": "The major cricket events scheduled for today, March 31, 2026, are the IPL (PBKS vs GT) and PSL (ISU vs PESZ) matches, both scheduled to start around 14:00 UTC. The Sheffield Shield final concluded yesterday, and the AFC U20 Asian Cup concluded in March 2025. No matches are confirmed to be live at 07:16 UTC, but the SONY SPORTS channels are likely for the scheduled cricket.",
+  "timestamp": "2026-03-31T07:16:58.184141"
 }
