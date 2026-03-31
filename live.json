@@ -1,23 +1,23 @@
 {
   "hero_match": {
-    "title": "IPL 2026: Rajasthan Royals vs Chennai Super Kings (Match Concluded)",
-    "status": "LIVE NOW",
-    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten2_hd/playlist.m3u8",
+    "title": "India vs Hong Kong, China (AFC Asian Cup 2027 Qualifiers Final Round)",
+    "status": "NOT STARTED (13:30 UTC)",
+    "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
     "cookie": "",
-    "image_url": "https://images.unsplash.com/photo-1541534741688-6048e07a34a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNyaWNrZXQlMjBwbGF5ZXJ8ZW58MHx8fHwxNjQ0NzY1MjY0&ixlib=rb-1.2.1&q=80&w=1080",
+    "image_url": "https://images.unsplash.com/photo-1546549162-8722a345313c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
     "referer": "https://toffeelive.com/"
   },
   "ranked_matches": [
     {
-      "title": "Sheffield Shield Final: South Australia vs Victoria (Match Concluded)",
-      "time": "LIVE",
+      "title": "Punjab Kings vs Gujarat Titans (IPL 2026 Match 4)",
+      "time": "NOT STARTED (07:00 UTC)",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_ten1_hd/playlist.m3u8",
-      "image_url": "https://images.unsplash.com/photo-1579451901896-c3e01733541a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNyaWNrZXQlMjBmaW5hbHxlbnwwfHx8fDE2NDQ3NjUyNjQ&ixlib=rb-1.2.1&q=80&w=1080",
+      "image_url": "https://images.unsplash.com/photo-1546549162-8722a345313c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cookie": "",
       "referer": "https://toffeelive.com/"
     }
   ],
-  "summary": "The major cricket events searched for, including the IPL 2026 RR vs CSK match and the Sheffield Shield 2024-25 Final (SA vs VIC), have concluded. No live matches were found for Chandigarh T20 or AFC U20 Asian Cup on this date. The listed TV channels are currently available for streaming.",
-  "timestamp": "2026-03-30T21:42:55.292762"
+  "summary": "The Sheffield Shield Final concluded yesterday. The main sporting event today is the India vs Hong Kong AFC Asian Cup Qualifier scheduled for 13:30 UTC. No matches are currently LIVE.",
+  "timestamp": "2026-03-31T02:30:37.314876"
 }
